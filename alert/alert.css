@@ -1,0 +1,32 @@
+.container {
+	margin: 2rem;
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.alert-icon {
+	font-size: 2.5rem;
+	margin-right: 1.5rem;
+}
+
+.success {
+	color: var(--color-green-800);
+	background-color: var(--color-green-100);
+}
+
+.info {
+	color: var(--color-blue-800);
+	background-color: var(--color-blue-100);
+}
+
+.error {
+	color: var(--color-red-800);
+	background-color: var(--color-red-100);
+}
+
+.warning {
+	color: var(--color-yellow-800);
+	background-color: var(--color-yellow-100);
+}

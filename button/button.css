@@ -1,0 +1,57 @@
+.btn-primary {
+	color: var(--color-white);
+	background-color: var(--color-blue-800);
+}
+
+.btn-primary:hover {
+	background-color: var(--color-blue-600);
+}
+
+.btn-secondary {
+	color: var(--color-white);
+	background-color: var(--color-red-600);
+}
+
+.btn-secondary:hover {
+	background-color: var(--color-red-800);
+}
+
+.btn-ternary {
+	background-color: var(--color-gray-200);
+}
+
+.btn-ternary:hover {
+	background-color: var(--color-gray-400);
+}
+
+.btn-outlined {
+	color: var(--color-blue-800);
+	border: 1px solid var(--color-blue-800);
+}
+
+.btn-outlined:hover {
+	color: var(--color-white);
+	background-color: var(--color-blue-800);
+}
+
+.link {
+	color: var(--color-black);
+	border-bottom: 1px solid var(--color-black);
+}
+
+/* icon button */
+.btn-icon {
+	font-size: 4rem;
+}
+
+/* floating action button */
+.btn-floating {
+	width: 5rem;
+	height: 5rem;
+	color: var(--color-white);
+	background-color: var(--color-blue-800);
+}
+
+.btn-floating i {
+	font-size: 2rem;
+}
