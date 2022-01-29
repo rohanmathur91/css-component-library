@@ -16,11 +16,11 @@
 	background-color: var(--dark-red);
 }
 
-.btn-ternary {
+.btn-tertiary {
 	background-color: var(--light-gray);
 }
 
-.btn-ternary:hover {
+.btn-tertiary:hover {
 	background-color: var(--dark-gray);
 }
 
