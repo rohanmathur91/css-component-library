@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Rohan Mathur" />
-    <meta name="description" content="Polaroid a CSS component library for awesome UI." />
+    <meta name="description" content="Polaroid a CSS component library for awesome your UI." />
 
     <!-- links -->
     <link rel="stylesheet" href="https://utilities91.netlify.app/styles.css" />
@@ -19,197 +19,111 @@
 <body>
     <div class="container">
         <!-- card with badge -->
-        <div class="card rounded-sm pb-1 vertical-card flex-column relative transition-2">
+        <div class="card vertical-card flex-column relative transition-2">
             <span class="card-badge text-base font-semibold absolute top-1 right-1 rounded-sm">New</span>
             <div>
-                <img src="./avatar.jpg" alt="avatar" class="rounded-sm" />
-                <div class="p-2">
-                    <h3>Capture the movements</h3>
-                    <p class="gray"><em> by Rohan Mathur </em></p>
-                </div>
-
-                <p class="px-2 gray">
-                    Nikon's First Line of Amateur Cameras Was Called the Nikkorex
-                </p>
+                <img src="./jacket.jpg" alt="avatar" />
             </div>
+            <div class="text-center">
+                <p class="mt-2 mb-1">Men premium jacket</p>
+                <h3 class="mb-1">₹2000</h3>
+                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                    Add to cart
+                </button>
+            </div>
+        </div>
 
-            <div class="p-1 flex-row items-center">
-                <div class="card__footer-left">
-                    <button class="p-1 font-semibold card__btn">Read</button>
-                    <button class="p-1 font-semibold card__btn">Bookmark</button>
-                </div>
-                <div class="card__footer-right hide">
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-heart-o"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-share-alt"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </div>
+        <!-- card with favourite badge -->
+        <div class="card vertical-card flex-column relative transition-2">
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-heart-o"></i>
+            </span>
+            <div>
+                <img src="./jacket.jpg" alt="avatar" />
+            </div>
+            <div class="text-center">
+                <p class="mt-2 mb-1">Men premium jacket</p>
+                <h3 class="mb-1">₹2000</h3>
+                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                    Add to cart
+                </button>
             </div>
         </div>
 
         <!-- card with dismiss -->
-        <div class="card rounded-sm vertical-card flex-column relative">
+        <div class="card vertical-card flex-column relative transition-2">
             <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
                 <i class="fa fa-close"></i>
             </span>
             <div>
-                <img src="./avatar.jpg" alt="avatar" class="rounded-sm" />
-                <div class="p-2">
-                    <h3>Capture the movements</h3>
-                    <p class="gray"><em> by Rohan Mathur </em></p>
-                </div>
-
-                <p class="px-2 gray">
-                    Nikon's First Line of Amateur Cameras Was Called the Nikkorex
-                </p>
+                <img src="./jacket.jpg" alt="avatar" />
             </div>
-
-            <div class="p-1 flex-row items-center">
-                <div class="card__footer-left">
-                    <button class="p-1 font-semibold card__btn">Read</button>
-                    <button class="p-1 font-semibold card__btn">Bookmark</button>
-                </div>
-
-                <div class="card__footer-right">
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-heart-o"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-share-alt"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </div>
+            <div class="text-center">
+                <p class="mt-2 mb-1">Men premium jacket</p>
+                <h3 class="mb-1">₹2000</h3>
+                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                    Add to cart
+                </button>
             </div>
         </div>
 
         <!-- card with text overlay -->
-        <div class="card rounded-sm vertical-card flex-column">
-            <div class="relative">
-                <img src="./avatar.jpg" alt="avatar" class="rounded-sm" />
-                <div class="p-2 overlay white">
-                    <h3>Capture the movements</h3>
-                    <p><em> by Rohan Mathur </em></p>
+        <div class="card vertical-card flex-column relative transition-2">
+            <span class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                <i class="fa fa-close"></i>
+            </span>
+            <div>
+                <div class="relative">
+                    <img src="./jacket.jpg" alt="avatar" class="rounded-sm" />
+                    <p class="p-2 overlay black w-100 font-bold text-center">
+                        Out of stock
+                    </p>
                 </div>
-
-                <p class="px-2 mt-1 gray">
-                    Nikon's First Line of Amateur Cameras Was Called the Nikkorex
-                </p>
             </div>
-
-            <div class="p-1 flex-row items-center">
-                <div class="card__footer-left">
-                    <button class="p-1 font-semibold card__btn">Read</button>
-                    <button class="p-1 font-semibold card__btn">Bookmark</button>
-                </div>
-
-                <div class="card__footer-right">
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-heart-o"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-share-alt"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </div>
+            <div class="text-center">
+                <p class="mt-2 mb-1">Men premium jacket</p>
+                <h3 class="mb-1">₹2000</h3>
+                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                    Add to cart
+                </button>
             </div>
         </div>
 
         <!-- text only card -->
-        <div class="card rounded-sm vertical-card flex-column relative">
+        <div class="card vertical-card flex-column relative">
             <div class="p-2">
-                <h3>Capture the movements</h3>
-                <p class="gray"><em> by Rohan Mathur </em></p>
+                <h3>Jacket</h3>
                 <p class="gray mt-1">
-                    Nikon's First Line of Amateur Cameras Was Called the Nikkorex
+                    An outer garment extending either to the waist or the hips,
+                    typically having sleeves and a fastening down the front.
                 </p>
             </div>
 
-            <div class="p-1 flex-row items-center">
-                <div class="card__footer-left">
-                    <button class="p-1 font-semibold card__btn">Read</button>
-                    <button class="p-1 font-semibold card__btn">Bookmark</button>
-                </div>
-                <div class="card__footer-right hide">
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-heart-o"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-share-alt"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </div>
-            </div>
+            <button class="p-1 w-100 font-semibold card-btn transition-2">
+                Learn More!
+            </button>
         </div>
 
         <!-- horizontal card -->
-        <div class="card rounded-sm vertical-card flex-column relative transition-2">
-            <div class="flex-row">
-                <img src="./avatar.jpg" alt="avatar" class="rounded-sm card-img" />
-                <div class="py-1 ml-2">
-                    <h3>Capture the movements</h3>
-                    <p class="gray"><em> by Rohan Mathur</em></p>
-                </div>
+        <div class="card flex-row horizontal-card relative transition-2">
+            <div class="w-30">
+                <img src="./jacket.jpg" alt="avatar" class="w-100" />
             </div>
-
-            <div class="p-1 flex-row items-center">
-                <div class="card__footer-left">
-                    <button class="p-1 font-semibold card__btn">Read</button>
-                    <button class="p-1 font-semibold card__btn">Bookmark</button>
+            <div class="flex-column content-space-between w-30 p-2 mt-1">
+                <div>
+                    <p class="text-regular mb-1">Men premium jacket</p>
+                    <div class="mb-1">
+                        <span class="mr-2 text-lg font-bold">₹2000</span>
+                        <span class="gray text-regular"><s>₹3000</s></span>
+                    </div>
+                    <p class="gray font-bold text-regular mb-1">50% off</p>
                 </div>
-                <div class="card__footer-right hide">
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-heart-o"></i>
+                <div>
+                    <button class="p-1 w-100 font-semibold items-end card-btn transition-2 mb-1">
+                        Add to cart
                     </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-share-alt"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-ellipsis-v"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- card with badge -->
-        <div class="card rounded-sm pb-1 vertical-card flex-column relative transition-2">
-            <span class="card-badge text-base font-semibold absolute top-1 right-1 rounded-sm">New</span>
-            <div>
-                <img src="./avatar.jpg" alt="avatar" class="rounded-sm" />
-                <div class="p-2">
-                    <h3>Capture the movements</h3>
-                    <p class="gray"><em> by Rohan Mathur </em></p>
-                </div>
-
-                <p class="px-2 gray">
-                    Nikon's First Line of Amateur Cameras Was Called the Nikkorex
-                </p>
-            </div>
-
-            <div class="p-1 flex-row items-center">
-                <div class="card__footer-left">
-                    <button class="p-1 font-semibold card__btn">Read</button>
-                    <button class="p-1 font-semibold card__btn">Bookmark</button>
-                </div>
-                <div class="card__footer-right hide">
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-heart-o"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-share-alt"></i>
-                    </button>
-                    <button class="card-icon rounded-full">
-                        <i class="fa fa-ellipsis-v"></i>
+                    <button class="p-1 w-100 font-semibold items-end card-remove-btn transition-2">
+                        Remove from wishlist
                     </button>
                 </div>
             </div>
