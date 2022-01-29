@@ -7,7 +7,7 @@
 	left: 3.3rem;
 	bottom: 2.7rem;
 	font-size: 1.2rem;
-	color: var(--color-white);
+	color: var(--white);
 	width: 2rem;
 	height: 2rem;
 	display: flex;
@@ -18,15 +18,15 @@
 
 /* colors */
 .red-badge {
-	background-color: var(--color-red-600);
+	background-color: var(--red);
 }
 
 .green-badge {
-	background-color: var(--color-green-600);
+	background-color: var(--green);
 }
 
 .blue-badge {
-	background-color: var(--color-blue-600);
+	background-color: var(--blue);
 }
 
 /* small badges without numbers */
@@ -53,5 +53,5 @@
 }
 
 .border-white {
-	border: 1px solid white;
+	border: 1px solid var(--white);
 }
