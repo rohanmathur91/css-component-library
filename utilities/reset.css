@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+/* anchor */
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+/* buttons */
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+input,
+textarea {
+	border: none;
+}
+
+/* headings */
+h1 {
+	font-size: 4.8rem;
+	line-height: 6.4rem;
+}
+
+h2 {
+	font-size: 3.2rem;
+	line-height: 6rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+	line-height: 3.2rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+
+h5 {
+	font-size: 0.8rem;
+	line-height: 1.6rem;
+}
+
+/* media */
+img,
+iframe,
+video {
+	max-inline-size: 100%;
+	block-size: auto;
+}
+
+/* list */
+ul {
+	list-style: none;
+}
+
+/* text */
+a,
+p,
+label,
+span,
+button,
+article {
+	font-size: 1.6rem;
+}
