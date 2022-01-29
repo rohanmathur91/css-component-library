@@ -22,7 +22,7 @@ body {
 .invert {
 	background-clip: text;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: transparent;
 	background-image: linear-gradient(90deg, var(--blue), var(--purple));
 }
 
@@ -38,7 +38,7 @@ body {
 	color: var(--blue);
 }
 
-.header {
+.navigation {
 	backdrop-filter: blur(8px);
 	border-bottom: 1px solid var(--gray);
 	background-color: var(--navigation-background);
@@ -76,9 +76,62 @@ body {
 	background-color: var(--text-hover);
 }
 
+/* documentation */
+.container {
+	display: grid;
+	grid-template-columns: 28rem 1fr;
+	grid-template-rows: 6.5rem 1fr;
+	height: 100vh;
+	grid-template-areas:
+		"navbar navbar"
+		"sidebar main";
+}
+
+.navigation {
+	grid-area: navbar;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	position: sticky;
+	left: 0;
+	border-right: 1px solid var(--gray);
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.main-container {
+	grid-area: main;
+}
+
+.list-item a {
+	width: 100%;
+	display: block;
+}
+
+.list-item:hover {
+	border-radius: 5px;
+	background-color: var(--gray);
+}
+
+.code-snippet {
+	overflow: auto;
+}
+
 @media screen and (max-width: 700px) {
 	.spacing {
 		padding-left: 2rem;
 		padding-right: 2rem;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 6.5rem 300px 1fr;
+		height: 100vh;
+		grid-template-areas:
+			"navbar"
+			"sidebar"
+			"main";
 	}
 }
