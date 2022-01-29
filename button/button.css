@@ -1,42 +1,42 @@
 .btn-primary {
-	color: var(--color-white);
-	background-color: var(--color-blue-800);
+	color: var(--white);
+	background-color: var(--dark-blue);
 }
 
 .btn-primary:hover {
-	background-color: var(--color-blue-600);
+	background-color: var(--blue-hover);
 }
 
 .btn-secondary {
-	color: var(--color-white);
-	background-color: var(--color-red-600);
+	color: var(--white);
+	background-color: var(--red);
 }
 
 .btn-secondary:hover {
-	background-color: var(--color-red-800);
+	background-color: var(--dark-red);
 }
 
 .btn-ternary {
-	background-color: var(--color-gray-200);
+	background-color: var(--light-gray);
 }
 
 .btn-ternary:hover {
-	background-color: var(--color-gray-400);
+	background-color: var(--dark-gray);
 }
 
 .btn-outlined {
-	color: var(--color-blue-800);
-	border: 1px solid var(--color-blue-800);
+	color: var(--dark-blue);
+	border: 1px solid var(--dark-blue);
 }
 
 .btn-outlined:hover {
-	color: var(--color-white);
-	background-color: var(--color-blue-800);
+	color: var(--white);
+	background-color: var(--dark-blue);
 }
 
 .link {
-	color: var(--color-black);
-	border-bottom: 1px solid var(--color-black);
+	color: var(--black);
+	border-bottom: 1px solid var(--black);
 }
 
 /* icon button */
@@ -48,8 +48,8 @@
 .btn-floating {
 	width: 5rem;
 	height: 5rem;
-	color: var(--color-white);
-	background-color: var(--color-blue-800);
+	color: var(--white);
+	background-color: var(--dark-blue);
 }
 
 .btn-floating i {

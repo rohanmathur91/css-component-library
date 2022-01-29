@@ -12,21 +12,21 @@
 }
 
 .success {
-	color: var(--color-green-800);
-	background-color: var(--color-green-100);
+	color: var(--dark-green);
+	background-color: var(--light-green);
 }
 
 .info {
-	color: var(--color-blue-800);
-	background-color: var(--color-blue-100);
+	color: var(--dark-blue);
+	background-color: var(--light-blue);
 }
 
 .error {
-	color: var(--color-red-800);
-	background-color: var(--color-red-100);
+	color: var(--dark-red);
+	background-color: var(--light-red);
 }
 
 .warning {
-	color: var(--color-yellow-800);
-	background-color: var(--color-yellow-100);
+	color: var(--dark-yellow);
+	background-color: var(--light-yellow);
 }
