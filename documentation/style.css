@@ -31,10 +31,11 @@ p {
 
 /* documentation */
 .container {
+	width: 100vw;
+	height: 100vh;
 	display: grid;
 	grid-template-columns: 28rem 1fr;
 	grid-template-rows: 6.5rem 1fr;
-	height: 100vh;
 	grid-template-areas:
 		"navbar navbar"
 		"sidebar main";
@@ -78,6 +79,11 @@ p {
 	grid-area: main;
 }
 
+.main-container > section {
+	margin: auto;
+	padding: 2.5rem;
+}
+
 .invert {
 	color: transparent;
 	background-clip: text;
@@ -103,24 +109,24 @@ p {
 	transition: all 0.3s ease;
 }
 
-.cta__primary {
+.primary-cta {
 	color: var(--white);
 	background-color: var(--blue);
 }
 
-.cta__secondary {
+.secondary-cta {
 	border: 1px solid var(--blue);
 }
 
-.cta__primary:hover {
+.primary-cta:hover {
 	background-color: var(--text-hover);
 }
 
-.cta__secondary {
+.secondary-cta {
 	color: var(--blue);
 }
 
-.cta__secondary:hover {
+.secondary-cta:hover {
 	color: var(--white);
 	background-color: var(--text-hover);
 }
@@ -138,7 +144,7 @@ p {
 .snippet {
 	width: 100%;
 	height: 100%;
-	max-width: 97rem;
+	max-width: 95rem;
 	overflow: auto;
 }
 
@@ -161,13 +167,15 @@ p {
 	}
 
 	.container {
-		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 6.5rem 1fr;
-		height: 100vh;
 		grid-template-areas:
 			"navbar"
 			"main";
+	}
+
+	.main-container {
+		width: 100vw;
 	}
 
 	.sidebar-title {
@@ -196,7 +204,7 @@ p {
 		top: 0;
 		z-index: 5;
 		width: 0rem;
-		height: 100vh;
+		height: 100%;
 		background-color: var(--background-color);
 	}
 }

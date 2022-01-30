@@ -16,14 +16,12 @@ body {
 	font-family: "Inter", sans-serif;
 }
 
-/* anchor */
 a {
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
 }
 
-/* buttons */
 button {
 	border: none;
 	background: none;
