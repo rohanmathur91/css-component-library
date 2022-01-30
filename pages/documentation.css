@@ -66,6 +66,7 @@ p {
 	width: 28rem;
 	overflow: auto;
 	transition: 0.3s;
+	background-color: var(--background-color);
 	border-right: 1px solid var(--gray);
 }
 

@@ -17,7 +17,7 @@
 }
 
 .btn-tertiary {
-	background-color: var(--light-gray);
+	background-color: var(--gray);
 }
 
 .btn-tertiary:hover {
@@ -36,6 +36,9 @@
 
 .link {
 	color: var(--black);
+}
+
+.link:hover {
 	border-bottom: 1px solid var(--black);
 }
 

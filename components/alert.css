@@ -1,11 +1,3 @@
-.container {
-	margin: 2rem;
-	display: flex;
-	gap: 2rem;
-	justify-content: center;
-	flex-direction: column;
-}
-
 .alert-icon {
 	font-size: 2.5rem;
 	margin-right: 1.5rem;
