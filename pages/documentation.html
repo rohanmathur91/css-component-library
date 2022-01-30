@@ -37,7 +37,7 @@
             </ul>
         </nav>
         <aside class="sidebar">
-            <div class="sidebar-title hide flex-row content-space-between mt-2 py-2 px-2">
+            <div class="sidebar-title hide flex-row content-space-between py-2 px-2">
                 <a class="ml-4 invert text-regular font-bold" href="../index.html">Polaroid</a>
                 <span class="ml-auto close hide transition-3"><i class="fa fa-times"></i></span>
             </div>
@@ -45,10 +45,18 @@
                 <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#usage">Get started!</a>
                 </li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#avatar">Avatar</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#badge">Badge</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#alert">Alert</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#avatar">Avatar</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#badge">Badge</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#button">Button</a>
+                </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
                 <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
                 <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
@@ -71,7 +79,7 @@
                 </article>
 
                 <article class="mt-5">
-                    <p class="text-regular">Installation</p>
+                    <p class="text-regular font-bold">Installation</p>
                     <p>
                         Import the below link in your head section of html file or in CSS
                         file.
@@ -91,12 +99,63 @@
                     </div>
                 </article>
                 <article class="mt-5">
-                    <p class="font-bold">References</p>
+                    <p class="text-regular font-bold">References</p>
                     <ol class="ml-2">
                         <li>Icons from font-awesome</li>
                         <li>Images from google images and picsum.com</li>
                     </ol>
                     <p class="mt-4">Made by Rohan Mathur.</p>
+                </article>
+            </section>
+
+            <!-- alert -->
+            <section id="alert" class="alert-container p-2 m-auto">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Alert</h2>
+                        <p>Alerts are use for showing small messages to user.</p>
+                        <p>
+                            Use different alerts depending upon the use cases such as, to
+                            show success, information, error and warning.
+                        </p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 flex-column items-center my-2 border">
+                        <!-- success -->
+                        <div class="success flex-row items-center w-50 rounded-sm p-2 mb-2">
+                            <i class="fa fa-check-circle-o alert-icon"></i>
+                            <p>This is a success alert - use it in your projects</p>
+                        </div>
+
+                        <!-- info -->
+                        <div class="info flex-row items-center w-50 rounded-sm p-2 mb-2">
+                            <i class="fa fa-info-circle alert-icon"></i>
+                            <p>This is a info alert - use it in your projects</p>
+                        </div>
+
+                        <!-- error -->
+                        <div class="error flex-row items-center w-50 rounded-sm p-2 mb-2">
+                            <i class="fa fa-close alert-icon"></i>
+                            <p>This is a error alert - use it in your projects</p>
+                        </div>
+
+                        <!-- warning -->
+                        <div class="warning flex-row items-center w-50 rounded-sm p-2 mb-2">
+                            <i class="fa fa-warning alert-icon"></i>
+                            <p>This is a warning alert - use it in your projects</p>
+                        </div>
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=929&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253C%21--%2520success%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522success%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Ci%2520class%253D%2522fa%2520fa-check-circle-o%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%253Cp%253EThis%2520is%2520a%2520success%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%21--%2520info%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522info%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Ci%2520class%253D%2522fa%2520fa-info-circle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%253Cp%253EThis%2520is%2520a%2520info%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%21--%2520error%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522error%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Ci%2520class%253D%2522fa%2520fa-close%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%253Cp%253EThis%2520is%2520a%2520error%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%21--%2520warning%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522warning%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Ci%2520class%253D%2522fa%2520fa-warning%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%253Cp%253EThis%2520is%2520a%2520warning%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E"
+                            style="
+									width: 929px;
+									height: 507px;
+									border: 0;
+									transform: scale(1);
+									overflow: hidden;
+								" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
                 </article>
             </section>
 
@@ -127,19 +186,14 @@
                     </div>
                     <div class="my-3 snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=1029&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Cimg%2520class%253D%2522avatar-xsm%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-sm%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-lg%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-xlg%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-                            style="
-									width: 1100px;
-									height: 170px;
-									border: 0;
-									transform: scale(1);
-									overflow: hidden;
-								" sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=943&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Cimg%2520class%253D%2522avatar-xsm%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-sm%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-lg%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-xlg%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 943px; height: 192px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
+                    <!-- letter avatar -->
                     <p class="mt-2">Letter avatars, put your initials of your name.</p>
-
                     <div class="snippet rounded-sm p-3 text-center my-2 border">
                         <div class="flex-row items-end content-center">
                             <div class="letter-avatar avatar-xsm white flex-row flex-center rounded-full mr-2">
@@ -159,14 +213,9 @@
 
                     <div class="my-3 snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=1039&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xsm%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ERM%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-sm%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ESR%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-lg%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EJJ%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xlg%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                            style="
-									width: 970px;
-									height: 187px;
-									border: 0;
-									transform: scale(1);
-									overflow: hidden;
-								" sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=943&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xsm%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ERM%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-sm%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ESR%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-lg%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EJJ%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xlg%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EAB%253C%252Fdiv%253E%250A%250A"
+                            style="width: 947px; height: 192px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </article>
@@ -223,6 +272,7 @@
                         </iframe>
                     </div>
 
+                    <!-- badge without avatar -->
                     <p class="mt-2">Badges without numbers.</p>
                     <div class="snippet rounded-sm p-3 text-center my-2 border">
                         <i class="fa fa-envelope badge-icon relative mr-4">
@@ -244,17 +294,13 @@
 
                     <div class="my-3 snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=987&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Ci%2520class%253D%2522fa%2520fa-envelope%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520badge-sm%2520blue-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-home%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520badge-sm%2520red-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520badge-sm%2520green-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-                            style="
-									width: 970px;
-									height: 282px;
-									border: 0;
-									transform: scale(1);
-									overflow: hidden;
-								" sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=947&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520blue-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-home%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520red-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520green-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 953px; height: 282px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
+                    <!-- avatar with badges -->
                     <p class="mt-2">
                         Badges on avatars, for badge to be at bottom right just add
                         <code>badge-btm</code> in class.
@@ -305,6 +351,107 @@
                     </div>
                 </article>
             </section>
+
+            <!-- button -->
+            <section id="button" class="button-container p-2 m-auto">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Button</h2>
+                        <p>Buttons are used for user actions</p>
+                        <p>There is primary, secondary, and outlined buttons.</p>
+                        <p>For primary put class <code>btn-primary</code>, for secondary <code>btn-secondary</code>, for
+                            other usecase <code>btn-tertiary</code> and for outlined button <code>btn-outlined</code>
+                        </p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 flex-row content-center my-2 border">
+                        <button class="btn-primary m-2 font-semibold py-1 px-3 rounded-sm transition-3">
+                            Primary
+                        </button>
+
+                        <button class="btn-secondary m-2 font-semibold py-1 px-3 rounded-sm transition-3">
+                            Show more
+                        </button>
+
+                        <button class="btn-tertiary m-2 font-semibold py-1 px-3 rounded-sm transition-3">
+                            Show more
+                        </button>
+
+                        <button class="btn-outlined m-2 font-semibold py-1 px-3 rounded-sm transition-3">
+                            Outlined
+                        </button>
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=950&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Cbutton%2520class%253D%2522btn-primary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Primary%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-secondary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520more%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-tertiary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520more%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outlined%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Outlined%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 950px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- cta -->
+                    <p class="mt-2">Call to action links(CTA).</p>
+                    <div class="snippet rounded-sm p-3 text-center my-2 border">
+                        <a class="link my-1 mx-2">Let's Go!</a>
+                        <a class="link my-1 mx-2">Get Started!</a>
+                    </div>
+
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=953&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Ca%2520class%253D%2522link%2520my-1%2520mx-2%2522%253ELet%27s%2520Go%21%253C%252Fa%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522link%2520my-1%2520mx-2%2522%253EGet%2520Started%21%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 935px; height: 125px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <!-- icon buttons -->
+                    <p class="mt-2">Icon buttons, for example for shopping cart.</p>
+
+                    <div class="snippet rounded-sm p-3 flex-row content-center my-2 border">
+                        <button
+                            class="m-2 btn-primary py-1 px-2 font-semibold rounded-sm flex-row items-center transition-3">
+                            <i class="fa fa-thumbs-o-up btn-icon mr-1"></i>Like
+                        </button>
+
+                        <button
+                            class="m-2 btn-tertiary py-1 px-2 font-semibold rounded-sm flex-row items-center transition-3">
+                            <i class="fa fa-clone btn-icon mr-1"></i>Copy
+                        </button>
+
+                        <button
+                            class="m-2 btn-tertiary py-1 px-2 font-semibold rounded-sm flex-row items-center transition-3">
+                            <i class="fa fa-shopping-cart btn-icon mr-1"></i> Add to cart
+                        </button>
+                    </div>
+
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=1091&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-primary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-thumbs-o-up%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253ELike%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-tertiary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-clone%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253ECopy%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-tertiary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 897px; height: 417px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- float button -->
+                    <p class="mt-2">Float action button. To place it at bottom right of a page give class
+                        <code>absolute</code>, <code>bottom-1</code> and <code>right-1</code>.
+                    </p>
+
+                    <div class="snippet rounded-sm p-3 flex-row content-center my-2 border">
+                        <button class="btn-floating m-2 font-semibold py-1 px-3 flex-row flex-center rounded-full">
+                            <i class="fa fa-plus btn-icon"></i>
+                        </button>
+                    </div>
+
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=860&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2509%2509class%253D%2522btn-floating%2520m-2%2520font-semibold%2520py-1%2520px-3%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509absolute%2520bottom-1%2520right-1%2520flex-center%2520rounded-full%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa%2520fa-plus%2520btn-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 860px; height: 192px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+
+
         </main>
     </div>
     <script src="./main.js"></script>
