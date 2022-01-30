@@ -3,6 +3,14 @@
 	margin: auto;
 }
 
+.ml-auto {
+	margin-left: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
 .m-1 {
 	margin: var(--value-1);
 }
