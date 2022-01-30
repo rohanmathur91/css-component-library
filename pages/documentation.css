@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@import url("../polaroid.css");
+
+:root {
+	--gray: #e5e5e5;
+	--light-gray: #f5f5f5;
+	--white: #fff;
+	--black: #171717;
+	--blue: #1d4ed8;
+	--purple: #c13584;
+	--text-hover: #3b82f6;
+	--background-color: #fafafa;
+	--navigation-background: rgba(250, 250, 250, 0.5);
+}
+
+body {
+	color: var(--black);
+	font-family: "Inter", sans-serif;
+	background-color: var(--background-color);
+}
+
+code {
+	padding: 2px 4px;
+	border-radius: 5px;
+	background-color: var(--gray);
+}
+
+p {
+	line-height: 2.5rem;
+}
+
+/* documentation */
+.container {
+	display: grid;
+	grid-template-columns: 28rem 1fr;
+	grid-template-rows: 6.5rem 1fr;
+	height: 100vh;
+	grid-template-areas:
+		"navbar navbar"
+		"sidebar main";
+}
+
+.navigation {
+	grid-area: navbar;
+	backdrop-filter: blur(8px);
+	border-bottom: 1px solid var(--gray);
+	background-color: var(--navigation-background);
+}
+
+.social-icons {
+	font-size: 3rem;
+	color: var(--black);
+	transition: all 0.3s ease;
+}
+
+.social-icons:hover {
+	color: var(--blue);
+}
+
+.sidebar {
+	grid-area: sidebar;
+	position: fixed;
+	top: 6.5rem;
+	z-index: 1;
+	height: calc(100vh - 6.5rem);
+	width: 28rem;
+	overflow: auto;
+	transition: 0.3s;
+	border-right: 1px solid var(--gray);
+}
+
+.sidebar.sidebar-toggle {
+	width: 28rem;
+}
+
+.main-container {
+	grid-area: main;
+}
+
+.invert {
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(90deg, var(--blue), var(--purple));
+}
+
+.highlight {
+	background-color: var(--gray);
+}
+
+.lists {
+	margin-left: auto;
+}
+
+.home {
+	max-width: 100rem;
+	height: 100vh;
+}
+
+/* cta */
+.cta {
+	transition: all 0.3s ease;
+}
+
+.cta__primary {
+	color: var(--white);
+	background-color: var(--blue);
+}
+
+.cta__secondary {
+	border: 1px solid var(--blue);
+}
+
+.cta__primary:hover {
+	background-color: var(--text-hover);
+}
+
+.cta__secondary {
+	color: var(--blue);
+}
+
+.cta__secondary:hover {
+	color: var(--white);
+	background-color: var(--text-hover);
+}
+
+.list-item a {
+	width: 100%;
+	display: block;
+}
+
+.list-item:hover {
+	border-radius: 5px;
+	background-color: var(--gray);
+}
+
+.snippet {
+	width: 100%;
+	height: 100%;
+	max-width: 97rem;
+	overflow: auto;
+}
+
+.hide {
+	display: none;
+}
+
+.close:hover {
+	color: var(--dark-gray);
+}
+
+@media screen and (max-width: 700px) {
+	.logo {
+		display: none;
+	}
+
+	.spacing {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 6.5rem 1fr;
+		height: 100vh;
+		grid-template-areas:
+			"navbar"
+			"main";
+	}
+
+	.sidebar-title {
+		display: flex;
+	}
+
+	.menu {
+		display: block;
+		color: var(--black);
+		font-size: 2rem;
+		margin-left: 2rem;
+		cursor: pointer;
+	}
+
+	.close {
+		font-size: 2.5rem;
+		color: var(--black);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+
+	.sidebar {
+		position: fixed;
+		top: 0;
+		z-index: 5;
+		width: 0rem;
+		height: 100vh;
+		background-color: var(--background-color);
+	}
+}
