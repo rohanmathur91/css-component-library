@@ -5,5 +5,7 @@
 @import url("./utilities/reset.css");
 
 /* components */
+@import url("./components/alert.css");
 @import url("./components/avatar.css");
 @import url("./components/badge.css");
+@import url("./components/button.css");
