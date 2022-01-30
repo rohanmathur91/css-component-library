@@ -1,0 +1,57 @@
+.badge-icon {
+	font-size: 4rem;
+}
+
+.badge {
+	position: absolute;
+	left: 3.3rem;
+	bottom: 2.7rem;
+	font-size: 1.2rem;
+	color: var(--white);
+	width: 2rem;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+/* colors */
+.red-badge {
+	background-color: var(--red);
+}
+
+.green-badge {
+	background-color: var(--green);
+}
+
+.blue-badge {
+	background-color: var(--blue);
+}
+
+/* small badges without numbers */
+.badge-sm {
+	width: 1rem;
+	height: 1rem;
+}
+
+/* badges on avatar */
+.avatar {
+	width: 4rem;
+	height: 4rem;
+	font-size: 1.5rem;
+}
+
+.avatar-badge {
+	position: relative;
+	border-radius: 50%;
+}
+
+.badge-btm {
+	bottom: 0.6rem;
+	left: 3rem;
+}
+
+.border-white {
+	border: 1px solid var(--white);
+}
