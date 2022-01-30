@@ -77,6 +77,8 @@ p {
 
 .main-container {
 	grid-area: main;
+	overflow-x: hidden;
+	overflow-wrap: break-word;
 }
 
 .main-container > section {
@@ -156,7 +158,7 @@ p {
 	color: var(--dark-gray);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 	.logo {
 		display: none;
 	}
@@ -172,10 +174,6 @@ p {
 		grid-template-areas:
 			"navbar"
 			"main";
-	}
-
-	.main-container {
-		width: 100vw;
 	}
 
 	.sidebar-title {
@@ -202,7 +200,7 @@ p {
 	.sidebar {
 		position: fixed;
 		top: 0;
-		z-index: 5;
+		z-index: 15;
 		width: 0rem;
 		height: 100%;
 		background-color: var(--background-color);
