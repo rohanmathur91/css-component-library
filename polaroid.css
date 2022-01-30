@@ -1,4 +1,9 @@
+/* utilities */
 @import url("./utilities/helper.css");
 @import url("./utilities/margin.css");
 @import url("./utilities/padding.css");
 @import url("./utilities/reset.css");
+
+/* components */
+@import url("./components/avatar.css");
+@import url("./components/badge.css");

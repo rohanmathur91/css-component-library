@@ -3,20 +3,63 @@
 
 :root {
 	--gray: #e5e5e5;
+	--light-gray: #f5f5f5;
 	--white: #fff;
 	--black: #171717;
 	--blue: #1d4ed8;
 	--purple: #c13584;
 	--text-hover: #3b82f6;
-	--text-active: #262626;
 	--background-color: #fafafa;
 	--navigation-background: rgba(250, 250, 250, 0.5);
 }
 
 body {
-	font-family: "Inter", sans-serif;
 	color: var(--black);
+	font-family: "Inter", sans-serif;
 	background-color: var(--background-color);
+}
+
+code {
+	padding: 2px 4px;
+	border-radius: 5px;
+	background-color: var(--gray);
+}
+
+p {
+	line-height: 2.5rem;
+}
+
+/* documentation */
+.container {
+	display: grid;
+	grid-template-columns: 28rem 1fr;
+	grid-template-rows: 6.5rem 1fr;
+	grid-template-areas:
+		"navbar navbar"
+		"sidebar main";
+}
+
+.navigation {
+	grid-area: navbar;
+	backdrop-filter: blur(8px);
+	border-bottom: 1px solid var(--gray);
+	background-color: var(--navigation-background);
+}
+
+.sidebar {
+	grid-area: sidebar;
+	width: 28rem;
+	height: calc(100vh - 6.5rem);
+	position: fixed;
+	top: 6.5rem;
+	z-index: 1;
+	overflow: auto;
+	border-right: 1px solid var(--gray);
+	background-color: var(--background-color);
+}
+
+.main-container {
+	grid-area: main;
 }
 
 .invert {
@@ -36,12 +79,6 @@ body {
 
 .link:hover {
 	color: var(--blue);
-}
-
-.navigation {
-	backdrop-filter: blur(8px);
-	border-bottom: 1px solid var(--gray);
-	background-color: var(--navigation-background);
 }
 
 .home {
@@ -76,34 +113,6 @@ body {
 	background-color: var(--text-hover);
 }
 
-/* documentation */
-.container {
-	display: grid;
-	grid-template-columns: 28rem 1fr;
-	grid-template-rows: 6.5rem 1fr;
-	height: 100vh;
-	grid-template-areas:
-		"navbar navbar"
-		"sidebar main";
-}
-
-.navigation {
-	grid-area: navbar;
-}
-
-.sidebar {
-	grid-area: sidebar;
-	position: sticky;
-	left: 0;
-	border-right: 1px solid var(--gray);
-	overflow-x: hidden;
-	z-index: 1;
-}
-
-.main-container {
-	grid-area: main;
-}
-
 .list-item a {
 	width: 100%;
 	display: block;
@@ -114,9 +123,20 @@ body {
 	background-color: var(--gray);
 }
 
-.code-snippet {
-	overflow: auto;
+.snippet {
+	max-width: 97rem;
+	background-color: var(--light-gray);
 }
+
+/* usage */
+/* .usage {
+	height: calc(100vh - 7rem);
+} */
+
+/* avatar */
+/* .avatar-container {
+	height: calc(100vh - 7rem);
+} */
 
 @media screen and (max-width: 700px) {
 	.spacing {
@@ -127,11 +147,14 @@ body {
 	.container {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 6.5rem 300px 1fr;
+		grid-template-rows: 6.5rem 1fr;
 		height: 100vh;
 		grid-template-areas:
 			"navbar"
-			"sidebar"
 			"main";
+	}
+
+	.sidebar {
+		display: none;
 	}
 }
