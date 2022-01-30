@@ -1,0 +1,29 @@
+.alert {
+	width: 100%;
+	max-width: 50rem;
+}
+
+.alert-icon {
+	font-size: 2.5rem;
+	margin-right: 1.5rem;
+}
+
+.success {
+	color: var(--dark-green);
+	background-color: var(--light-green);
+}
+
+.info {
+	color: var(--dark-blue);
+	background-color: var(--light-blue);
+}
+
+.error {
+	color: var(--dark-red);
+	background-color: var(--light-red);
+}
+
+.warning {
+	color: var(--dark-yellow);
+	background-color: var(--light-yellow);
+}
