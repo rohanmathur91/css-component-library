@@ -2,6 +2,10 @@
 	width: 28rem;
 }
 
+.dark-gray {
+	color: var(--dark-gray);
+}
+
 .card {
 	background-color: var(--white);
 	box-shadow: 0px 3px 6px 0px rgb(105 111 125 / 49%);
@@ -36,11 +40,11 @@
 
 .card-remove-btn {
 	color: var(--white);
-	background-color: var(--gray);
+	background-color: var(--dark-gray);
 }
 
 .card-remove-btn:hover {
-	background-color: var(--dark-gray);
+	background-color: var(--gray-hover);
 }
 
 /* text overlay */
