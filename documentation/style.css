@@ -95,10 +95,6 @@ p {
 	background-color: var(--gray);
 }
 
-.lists {
-	margin-left: auto;
-}
-
 .home {
 	max-width: 100rem;
 	height: 100vh;
