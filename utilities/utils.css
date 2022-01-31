@@ -392,3 +392,8 @@
 .pointer {
 	cursor: pointer;
 }
+
+/* images */
+.object-fit-cover {
+	object-fit: cover;
+}

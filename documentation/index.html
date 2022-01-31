@@ -57,15 +57,15 @@
                 <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#button">Button</a>
                 </li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#card">Card</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy </a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy </a></li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#card">Card</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#image">Image</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#input">Input</a>
+                </li>
             </ul>
         </aside>
         <main class="main-container flex-column p-1">
@@ -282,7 +282,6 @@
                         </iframe>
                     </div>
 
-                    <!-- badge without avatar -->
                     <p class="mt-2">Badges without numbers.</p>
                     <div class="snippet rounded-sm p-3 text-center my-2 border">
                         <i class="fa fa-envelope badge-icon relative mr-4">
@@ -570,8 +569,8 @@
 
                     <!-- card with text overlay and text only cards-->
                     <p class="mt-2">Card with text overlay and text only cards.</p>
-                    <div class="snippet rounded-sm p-3 flex-row items-start content-center my-1 border">
-                        <div class="card vertical-card flex-column relative transition-2 my-2 mr-1">
+                    <div class="snippet rounded-sm p-3 flex-row items-start wrap content-center my-1 border">
+                        <div class="card vertical-card flex-column relative transition-2 m-1">
                             <div class="relative">
                                 <img src="../assets/jacket.jpg" alt="avatar" />
                                 <p class="p-2 overlay black w-100 font-bold text-center">
@@ -588,7 +587,7 @@
                         </div>
 
                         <!-- text only card -->
-                        <div class="card vertical-card flex-column relative my-2 mr-1">
+                        <div class="card vertical-card flex-column relative m-1">
                             <div class="p-2">
                                 <h3>Jacket</h3>
                                 <p class="black mt-1">
@@ -650,6 +649,84 @@
 
                 </article>
             </section>
+
+            <!-- images -->
+            <section id="image">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Image</h2>
+                        <p>
+                            Responsive images can be use for profile picture and as a background.
+                        </p>
+
+                        <p class="mt-2">
+                            For round images put <code>rounded-full</code> and for images with rounded border put
+                            <code>rounded-sm</code> in <code>class</code>. And also provide a
+                            <code>alt</code>.
+                        </p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 flex-row content-center wrap my-1 border">
+                        <img class="m-1 w-20 h-20" src="../assets/sky.jpg" alt="sky" />
+                        <img class="m-1 w-20 h-20 rounded-full" src="../assets/sky.jpg" alt="sky" />
+                        <img class="m-1 w-20 h-20 rounded-sm" src="../assets/sky.jpg" alt="sky" />
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=894&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2520rounded-full%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2520rounded-sm%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A"
+                            style="width: 894px; height: 147px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+
+            <!-- inputs -->
+            <section id="input">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Input</h2>
+                        <p>
+                            Input and textarea fields for taking input from user.
+                        </p>
+
+                        <p class="mt-2">
+                            For representing success message put <code>success-msg</code> and for error put
+                            <code>error-msg</code> in <code>class</code>.
+                        </p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 flex-row content-center wrap my-1 border">
+                        <div class="flex-column m-1">
+                            <label for="email">Email</label>
+                            <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="email" type="email"
+                                placeholder="Enter your email">
+                            <!-- custom message -->
+                            <span class="error-msg mt-1 p-1 rounded-sm">Please enter correct email!</span>
+                        </div>
+
+                        <div class="flex-column m-1">
+                            <label for="password">Password</label>
+                            <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="password" type="password"
+                                placeholder="Enter your password">
+                            <!-- custom message -->
+                            <span class="success-msg mt-1 p-1 rounded-sm">👋 Login successfull.</span>
+                        </div>
+
+                        <textarea class="m-1 py-1 px-2 text-base border rounded-sm resize-none" name="address"
+                            placeholder="Address goes here..." id="address" cols="40" rows="10"></textarea>
+                    </div>
+                    <div class="my-3 snippet">
+
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=1009&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-column%2520m-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522mt-1%2520py-1%2520px-2%2520text-base%2520border%2520rounded-sm%2522%2520id%253D%2522password%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520custom%2520message%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522success-msg%2520mt-1%2520p-1%2520rounded-sm%2522%253E%25F0%259F%2591%258B%2520Login%2520successfull.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522m-1%2520py-1%2520px-2%2520text-base%2520border%2520rounded-sm%2520resize-none%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522address%2522%2520placeholder%253D%2522Address%2520goes%2520here...%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522address%2522%2520cols%253D%252240%2522%2520rows%253D%252210%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftextarea%253E%250A"
+                            style="width: 1009px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+            <footer class="mt-2 p-2 text-center">
+                <p>Made by Rohan Mathur.</p>
+            </footer>
         </main>
     </div>
     <script src="./sidebar.js"></script>

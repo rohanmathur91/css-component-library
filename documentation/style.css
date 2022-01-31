@@ -78,6 +78,7 @@ p {
 .main-container {
 	grid-area: main;
 	overflow-wrap: break-word;
+	overflow: auto;
 }
 
 .main-container > section {
