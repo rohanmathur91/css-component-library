@@ -156,7 +156,7 @@ p {
 	color: var(--dark-gray);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
 	.logo {
 		display: none;
 	}
@@ -172,6 +172,10 @@ p {
 		grid-template-areas:
 			"navbar"
 			"main";
+	}
+
+	.main-container {
+		width: 100vw;
 	}
 
 	.sidebar-title {
