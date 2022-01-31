@@ -77,7 +77,6 @@ p {
 
 .main-container {
 	grid-area: main;
-	overflow-x: hidden;
 	overflow-wrap: break-word;
 }
 
@@ -199,7 +198,7 @@ p {
 	.sidebar {
 		position: fixed;
 		top: 0;
-		z-index: 15;
+		z-index: 2;
 		width: 0rem;
 		height: 100%;
 		background-color: var(--background-color);
