@@ -17,6 +17,7 @@ body {
 	color: var(--black);
 	font-family: "Inter", sans-serif;
 	background-color: var(--background-color);
+	overflow-x: hidden;
 }
 
 code {
