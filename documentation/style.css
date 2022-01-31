@@ -77,10 +77,10 @@ p {
 
 .main-container {
 	grid-area: main;
+	overflow-wrap: break-word;
 }
 
 .main-container > section {
-	margin: auto;
 	padding: 2.5rem;
 }
 
@@ -156,7 +156,7 @@ p {
 	color: var(--dark-gray);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
 	.logo {
 		display: none;
 	}
@@ -202,7 +202,7 @@ p {
 	.sidebar {
 		position: fixed;
 		top: 0;
-		z-index: 5;
+		z-index: 2;
 		width: 0rem;
 		height: 100%;
 		background-color: var(--background-color);

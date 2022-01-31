@@ -16,7 +16,7 @@
 
 <body>
     <div class="container">
-        <nav class="navigation spacing flex-row items-center wrap py-2 px-6 fixed left-0 top-0 z-2 w-100">
+        <nav class="navigation spacing flex-row items-center wrap py-2 px-6 fixed left-0 top-0 z-1 w-100">
             <a class="logo" href="../index.html">
                 <h3>Polaroid</h3>
             </a>
@@ -57,7 +57,7 @@
                 <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#button">Button</a>
                 </li>
-                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
+                <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#card">Card</a></li>
                 <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
                 <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
                 <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy</a></li>
@@ -68,7 +68,7 @@
                 <li class="py-1 px-2 m-1 ml-4 list-item"><a href="#">Dummy </a></li>
             </ul>
         </aside>
-        <main class="main-container">
+        <main class="main-container flex-column p-1">
             <section id="usage" class="usage">
                 <article>
                     <p class="text-regular mt-3 mb-2 pb-2 border-b-1">
@@ -119,7 +119,7 @@
                             show success, information, error and warning.
                         </p>
                     </div>
-                    <div class="snippet rounded-sm p-3 flex-column items-center my-2 border">
+                    <div class="snippet rounded-sm p-3 flex-column items-center my-1 border">
                         <!-- success -->
                         <div class="success alert flex-row items-center w-50 rounded-sm p-2 mb-2">
                             <i class="fa fa-check-circle-o alert-icon"></i>
@@ -178,7 +178,7 @@
                             <code>alt</code>.
                         </p>
                     </div>
-                    <div class="snippet rounded-sm p-3 text-center my-2 border">
+                    <div class="snippet rounded-sm p-3 text-center my-1 border">
                         <img class="avatar-xs rounded-full mr-1" src="../../assets/avatar.png" alt="avatar" />
                         <img class="avatar-sm rounded-full mr-1" src="../../assets/avatar.png" alt="avatar" />
                         <img class="avatar-lg rounded-full mr-1" src="../../assets/avatar.png" alt="avatar" />
@@ -199,7 +199,7 @@
 
                     <!-- letter avatar -->
                     <p class="mt-2">Letter avatars, put your initials of your name.</p>
-                    <div class="snippet rounded-sm p-3 text-center my-2 border">
+                    <div class="snippet rounded-sm p-3 text-center my-1 border">
                         <div class="flex-row items-end content-center">
                             <div class="letter-avatar avatar-xs white flex-row flex-center rounded-full mr-2">
                                 RM
@@ -488,6 +488,166 @@
 								" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
+                </article>
+            </section>
+
+            <!-- cards -->
+            <section id="card">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Card</h2>
+                        <p>
+                            Cards are use for display products on ecommerce or for users
+                            posts on social media.
+                        </p>
+                    </div>
+
+                    <div class="snippet rounded-sm p-3 flex-row flex-center wrap my-1 border">
+                        <!-- card with badge -->
+                        <div class="card vertical-card flex-column relative transition-2 mr-1 my-2">
+                            <span
+                                class="card-badge text-base font-semibold absolute top-1 right-1 rounded-sm">New</span>
+                            <div>
+                                <img src="../assets/jacket.jpg" alt="avatar" />
+                            </div>
+                            <div class="text-center">
+                                <p class="mt-2 mb-1">Men premium jacket</p>
+                                <h3 class="mb-1">₹2000</h3>
+                                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- card with favourite badge -->
+                        <div class="card vertical-card flex-column relative transition-2 mr-1 my-2">
+                            <span
+                                class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                                <i class="fa fa-heart-o"></i>
+                            </span>
+                            <div>
+                                <img src="../assets/jacket.jpg" alt="avatar" />
+                            </div>
+                            <div class="text-center">
+                                <p class="mt-2 mb-1">Men premium jacket</p>
+                                <h3 class="mb-1">₹2000</h3>
+                                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- card with dismiss -->
+                        <div class="card vertical-card flex-column relative transition-2 mr-1 my-2">
+                            <span
+                                class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
+                                <i class="fa fa-close"></i>
+                            </span>
+                            <div>
+                                <img src="../assets/jacket.jpg" alt="avatar" />
+                            </div>
+                            <div class="text-center">
+                                <p class="mt-2 mb-1">Men premium jacket</p>
+                                <h3 class="mb-1">₹2000</h3>
+                                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=903&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520card%2520with%2520badge%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2520mr-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-badge%2520text-base%2520font-semibold%2520absolute%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520top-1%2520right-1%2520rounded-sm%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2520mr-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520card%2520with%2520dismiss%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-badge-bg%2520absolute%2520text-base%2520top-1%2520right-1%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-full%2520flex-row%2520flex-center%2520pointer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="
+									width: 978px;
+									height: 890px;
+									border: 0;
+									transform: scale(1);
+									overflow: hidden;
+								" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- card with text overlay and text only cards-->
+                    <p class="mt-2">Card with text overlay and text only cards.</p>
+                    <div class="snippet rounded-sm p-3 flex-row items-start content-center my-1 border">
+                        <div class="card vertical-card flex-column relative transition-2 my-2 mr-1">
+                            <div class="relative">
+                                <img src="../assets/jacket.jpg" alt="avatar" />
+                                <p class="p-2 overlay black w-100 font-bold text-center">
+                                    Out of stock
+                                </p>
+                            </div>
+                            <div class="text-center">
+                                <p class="mt-2 mb-1">Men premium jacket</p>
+                                <h3 class="mb-1">₹2000</h3>
+                                <button class="p-1 w-100 font-semibold card-btn transition-2">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- text only card -->
+                        <div class="card vertical-card flex-column relative my-2 mr-1">
+                            <div class="p-2">
+                                <h3>Jacket</h3>
+                                <p class="black mt-1">
+                                    An outer garment extending either to the waist or the hips,
+                                    typically having sleeves and a fastening down the front.
+                                </p>
+                            </div>
+
+                            <button class="p-1 w-100 font-semibold card-btn transition-2">
+                                Learn More!
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=978&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522rounded-sm%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522p-2%2520overlay%2520black%2520w-100%2520font-bold%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Out%2520of%2520stock%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520text%2520only%2520card%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJacket%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray%2520mt-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520An%2520outer%2520garment%2520extending%2520either%2520to%2520the%2520waist%2520or%2520the%2520hips%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520typically%2520having%2520sleeves%2520and%2520a%2520fastening%2520down%2520the%2520front.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Learn%2520More%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 978px; height: 755px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+
+                    <!-- horizontal cards-->
+                    <p class="mt-2">Horizontal cards.</p>
+                    <div class="snippet rounded-sm p-3 flex-row items-start content-center my-1 border">
+                        <div class="card flex-row horizontal-card transition-2">
+                            <div class="w-30">
+                                <img src="../assets/jacket.jpg" alt="avatar" class="w-100 h-100" />
+                            </div>
+                            <div class="flex-column content-space-between w-30 p-2 mt-1">
+                                <div>
+                                    <p class="text-regular mb-1">Men premium jacket</p>
+                                    <div class="mb-1">
+                                        <span class="mr-2 text-lg font-bold">₹2000</span>
+                                        <span class="dark-gray text-regular"><s>₹3000</s></span>
+                                    </div>
+                                    <p class="dark-gray font-bold text-regular mb-1">50% off</p>
+                                </div>
+                                <div>
+                                    <button class="p-1 w-100 font-semibold items-end card-btn transition-2 mb-1">
+                                        Add to cart
+                                    </button>
+                                    <button class="p-1 w-100 font-semibold items-end card-remove-btn transition-2">
+                                        Remove from wishlist
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=978&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520flex-row%2520horizontal-card%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522w-30%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522w-100%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-column%2520content-space-between%2520w-30%2520p-2%2520mt-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-regular%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522mr-2%2520text-lg%2520font-bold%2522%253E%25E2%2582%25B92000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray%2520text-regular%2522%253E%253Cs%253E%25E2%2582%25B93000%253C%252Fs%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray%2520font-bold%2520text-regular%2520mb-1%2522%253E50%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520items-end%2520card-btn%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520transition-2%2520mb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520items-end%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520card-remove-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Remove%2520from%2520wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 978px; height: 620px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
                 </article>
             </section>
         </main>
