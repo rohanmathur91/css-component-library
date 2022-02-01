@@ -67,10 +67,13 @@
                     <a href="#input">Input</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
-                    <a href="#input">Lists</a>
+                    <a href="#lists">Lists</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
-                    <a href="#input">Typography</a>
+                    <a href="#modal">Modal</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#typography">Typography</a>
                 </li>
             </ul>
         </aside>
@@ -831,12 +834,77 @@
                     </div>
                 </article>
             </section>
+
+            <!-- modal -->
+            <section id="modal">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Modal</h2>
+                        <p>
+                            Modal is use for getting confirmation or showing some information to user.
+                        </p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 flex-column flex-center wrap mt-1 mb-2 border">
+                        <div class="modal-container w-40 p-2 m-2 relative rounded-sm border">
+                            <div class="modal-content flex-column w-100">
+                                <div class="modal-description mb-2">
+                                    <!-- heading of modal -->
+                                    <p class="text-base font-bold mb-2">You want to remove this item?</p>
+                                    <!-- description -->
+                                    <p>Item description goes here, Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industry.</p>
+                                </div>
+                                <div class="modal-footer ml-auto">
+                                    <button
+                                        class="btn-primary font-bold rounded-sm py-1 px-2 mr-1 transition-2">Cancel</button>
+                                    <button
+                                        class="btn-secondary font-bold rounded-sm py-1 px-2 transition-2">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- demo -->
+                    <p>Demo for the modal. For opening a model with custom button, give that button
+                        <code>modal-open-btn</code> class and to close modal give <code>modal-cancel-btn</code> class.
+                    </p>
+                    <div class="snippet rounded-sm p-3 flex-column flex-center wrap my-1 border">
+                        <!-- modal open button -->
+                        <button class="modal-open-btn btn-primary py-1 px-2 rounded-sm transition-2">Open modal</button>
+                        <div class="modal absolute bottom-0 flex-row flex-center h-100 w-screen-100 z-10 ">
+                            <div class="modal-container w-40 p-2 m-2 relative rounded-sm border">
+                                <div class="modal-content flex-column w-100">
+                                    <div class="modal-description mb-2">
+                                        <!-- heading of modal -->
+                                        <p class="text-base font-bold mb-2">You want to remove this item?</p>
+                                        <!-- description -->
+                                        <p>Item description goes here, Lorem Ipsum is simply dummy text of the printing
+                                            and typesetting
+                                            industry.</p>
+                                    </div>
+                                    <div class="modal-footer ml-auto">
+                                        <button
+                                            class="modal-close-btn btn-primary font-bold rounded-sm py-1 px-2 mr-1 transition-2">Cancel</button>
+                                        <button
+                                            class="btn-secondary font-bold rounded-sm py-1 px-2 transition-2">Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
             <footer class="mt-2 p-2 text-center">
                 <p>Made with ❤ by Rohan Mathur.</p>
             </footer>
         </main>
     </div>
+
+    <!-- scripts -->
     <script src="./sidebar.js"></script>
+    <script src="../javascript/modal.js"></script>
 </body>
 
 </html>
