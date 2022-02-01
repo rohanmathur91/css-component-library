@@ -39,7 +39,9 @@
         <aside class="sidebar">
             <div class="sidebar-title hide flex-row content-space-between py-2 px-2">
                 <a class="ml-4 invert text-regular font-bold" href="../index.html">Polaroid</a>
-                <button class="ml-auto close hide transition-3"><i class="fa fa-times"></i></button>
+                <button class="ml-auto close hide transition-3">
+                    <i class="fa fa-times"></i>
+                </button>
             </div>
             <ul class="mt-3">
                 <li class="py-1 px-2 m-1 ml-4 list-item">
@@ -85,11 +87,16 @@
                         file.
                     </p>
 
-                    <div class="my-2 snippet">
+                    <div class="my-2 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=1013&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=27px&ph=37px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fpolaroid7.netlify.app%252Fpolaroid.css%2522%252F%253E%250A"
-                            style="width: 100%; height: 156px; border:0; transform: scale(1); overflow:auto;"
-                            sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fpolaroid7.netlify.app%252Fpolaroid.css%2522%252F%253E%250A%250A"
+                            style="
+									width: 977px;
+									height: 133px;
+									border: 0;
+									transform: scale(1);
+									overflow: hidden;
+								" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </article>
@@ -114,7 +121,7 @@
                             show success, information, error and warning.
                         </p>
                     </div>
-                    <div class="snippet rounded-sm p-3 flex-column items-center my-1 border">
+                    <div class="example-snippet rounded-sm p-3 flex-column items-center my-1 border">
                         <!-- success -->
                         <div class="success alert flex-row items-center w-50 rounded-sm p-2 mb-2">
                             <i class="fa fa-check-circle-o alert-icon"></i>
@@ -139,12 +146,12 @@
                             <p>This is a warning alert - use it in your projects</p>
                         </div>
                     </div>
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=889&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2520%2520%2520%253C%21--%2520success%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522success%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-check-circle-o%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520success%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%2520%253C%21--%2520info%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522info%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-info-circle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520info%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%2520%253C%21--%2520error%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522error%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520error%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%2520%253C%21--%2520warning%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522warning%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-warning%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520warning%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520success%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522success%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-check-circle-o%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520success%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%2520%253C%21--%2520info%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522info%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-info-circle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520info%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%2520%253C%21--%2520error%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522error%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520error%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2520%2520%2520%253C%21--%2520warning%2520--%253E%250A%2509%2509%2520%2520%2520%253Cdiv%2520class%253D%2522warning%2520alert%2520flex-row%2520items-center%2520w-50%2520rounded-sm%2520p-2%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-warning%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520warning%2520alert%2520-%2520use%2520it%2520in%2520your%2520projects%253C%252Fp%253E%250A%2509%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A"
                             style="
-									width: 889px;
-									height: 530px;
+									width: 977px;
+									height: 514px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -173,18 +180,18 @@
                             <code>alt</code>.
                         </p>
                     </div>
-                    <div class="snippet rounded-sm p-3 text-center my-1 border">
+                    <div class="example-snippet rounded-sm p-3 text-center my-1 border">
                         <img class="avatar-xs rounded-full mr-1" src="../../assets/avatar.png" alt="avatar" />
                         <img class="avatar-sm rounded-full mr-1" src="../../assets/avatar.png" alt="avatar" />
                         <img class="avatar-lg rounded-full mr-1" src="../../assets/avatar.png" alt="avatar" />
                         <img class="avatar-xl rounded-full mr-1" src="../../assets/avatar.png" alt="avatar" />
                     </div>
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=943&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Cimg%2520class%253D%2522avatar-xs%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-sm%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-lg%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-xl%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-xs%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-sm%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-lg%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522avatar-xl%2520rounded-full%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A"
                             style="
-									width: 943px;
-									height: 192px;
+									width: 977px;
+									height: 190px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -194,7 +201,7 @@
 
                     <!-- letter avatar -->
                     <p class="mt-2">Letter avatars, put your initials of your name.</p>
-                    <div class="snippet rounded-sm p-3 text-center my-1 border">
+                    <div class="example-snippet rounded-sm p-3 text-center my-1 border">
                         <div class="flex-row items-end content-center">
                             <div class="letter-avatar avatar-xs white flex-row flex-center rounded-full mr-2">
                                 RM
@@ -211,12 +218,12 @@
                         </div>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=943&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xs%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ERM%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-sm%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ESR%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-lg%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EJJ%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xl%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EAB%253C%252Fdiv%253E%250A%250A"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xs%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ERM%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-sm%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253ESR%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-lg%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EJJ%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522letter-avatar%2520avatar-xl%2520white%2520flex-row%2520flex-center%2520rounded-full%2522%253EAB%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A"
                             style="
-									width: 947px;
-									height: 192px;
+									width: 977px;
+									height: 190px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -243,7 +250,7 @@
                     </div>
 
                     <p class="mt-2">Badges with numbers on them.</p>
-                    <div class="snippet rounded-sm p-3 text-center my-2 border">
+                    <div class="example-snippet rounded-sm p-3 text-center my-2 border">
                         <i class="fa fa-envelope badge-icon relative mr-4">
                             <span class="badge blue-badge">4</span>
                         </i>
@@ -264,21 +271,21 @@
                             <span class="badge red-badge">9+</span>
                         </i>
                     </div>
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=938&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Ci%2520class%253D%2522fa%2520fa-envelope%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520blue-badge%2522%253E4%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-home%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520red-badge%2522%253E5%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520green-badge%2522%253E9%252B%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa%2520fa-envelope%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520blue-badge%2522%253E4%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-home%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520red-badge%2522%253E5%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522badge%2520green-badge%2522%253E9%252B%253C%252Fspan%253E%250A%2509%2509%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A"
                             style="
-									width: 970px;
-									height: 282px;
+									width: 977px;
+									height: 304px;
 									border: 0;
 									transform: scale(1);
-									overflow: auto;
+									overflow: hidden;
 								" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
                     <p class="mt-2">Badges without numbers.</p>
-                    <div class="snippet rounded-sm p-3 text-center my-2 border">
+                    <div class="example-snippet rounded-sm p-3 text-center my-2 border">
                         <i class="fa fa-envelope badge-icon relative mr-4">
                             <span class="badge blue-badge badge-sm"></span>
                         </i>
@@ -296,12 +303,12 @@
                         </i>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=947&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520blue-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-home%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520red-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520green-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520blue-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-home%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520red-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%2509%2509%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520badge-icon%2520relative%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520green-badge%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%2520%253C%252Fi%253E%250A%250A"
                             style="
-									width: 953px;
-									height: 282px;
+									width: 977px;
+									height: 285px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -314,7 +321,7 @@
                         Badges on avatars, for badge to be at bottom right just add
                         <code>bottom-badge</code> in class.
                     </p>
-                    <div class="snippet rounded-sm p-3 flex-row content-center wrap my-2 border">
+                    <div class="example-snippet rounded-sm p-3 flex-row content-center wrap my-2 border">
                         <div class="avatar-badge mr-4">
                             <img class="avatar rounded-full" src="../assets/avatar.png" alt="avatar" />
                             <span class="badge badge-sm blue-badge border-white"></span>
@@ -346,12 +353,12 @@
                         </div>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=903&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%253Cimg%2520class%253D%2522avatar%2520rounded-full%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520blue-badge%2520border-white%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520badge%2520on%2520bottom%2520--%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%253Cimg%2520class%253D%2522avatar%2520rounded-full%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2509%2509%2520%2520%253Cspan%2520class%253D%2522bottom-badge%2520badge%2520badge-sm%2520blue-badge%2520border-white%2522%253E%253C%252Fspan%253E%250A%2509%2509%2520%2520%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520rounded-full%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520blue-badge%2520border-white%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520badge%2520on%2520bottom%2520--%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520rounded-full%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522bottom-badge%2520badge%2520badge-sm%2520blue-badge%2520border-white%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A"
                             style="
-									width: 903px;
-									height: 305px;
+									width: 977px;
+									height: 304px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -375,7 +382,7 @@
                             <code>btn-outlined</code>
                         </p>
                     </div>
-                    <div class="snippet rounded-sm p-3 flex-row content-center my-2 border">
+                    <div class="example-snippet rounded-sm p-3 flex-row content-center my-2 border">
                         <button class="btn-primary m-2 font-semibold py-1 px-3 rounded-sm transition-3">
                             Primary
                         </button>
@@ -392,12 +399,12 @@
                             Outlined
                         </button>
                     </div>
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=950&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%253Cbutton%2520class%253D%2522btn-primary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Primary%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-secondary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520more%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-tertiary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520more%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outlined%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Outlined%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Primary%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-secondary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520more%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-tertiary%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Show%2520more%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outlined%2520m-2%2520font-semibold%2520py-1%2520px-3%2520rounded-sm%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Outlined%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A"
                             style="
-									width: 950px;
-									height: 350px;
+									width: 977px;
+									height: 342px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -407,17 +414,17 @@
 
                     <!-- cta -->
                     <p class="mt-2">Call to action links(CTA).</p>
-                    <div class="snippet rounded-sm p-3 text-center my-2 border">
+                    <div class="example-snippet rounded-sm p-3 text-center my-2 border">
                         <a class="link my-1 mx-2">Let's Go!</a>
                         <a class="link my-1 mx-2">Get Started!</a>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=953&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Ca%2520class%253D%2522link%2520my-1%2520mx-2%2522%253ELet%27s%2520Go%21%253C%252Fa%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522link%2520my-1%2520mx-2%2522%253EGet%2520Started%21%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link%2520my-1%2520mx-2%2522%253ELet%27s%2520Go%21%253C%252Fa%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522link%2520my-1%2520mx-2%2522%253EGet%2520Started%21%253C%252Fa%253E%250A%250A"
                             style="
-									width: 935px;
-									height: 125px;
+									width: 977px;
+									height: 152px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -427,7 +434,7 @@
                     <!-- icon buttons -->
                     <p class="mt-2">Icon buttons, for example for shopping cart.</p>
 
-                    <div class="snippet rounded-sm p-3 flex-row content-center my-2 border">
+                    <div class="example-snippet rounded-sm p-3 flex-row content-center my-2 border">
                         <button
                             class="m-2 btn-primary py-1 px-2 font-semibold rounded-sm flex-row items-center transition-3">
                             <i class="fa fa-thumbs-o-up btn-icon mr-1"></i>Like
@@ -444,12 +451,12 @@
                         </button>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=1091&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-primary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-thumbs-o-up%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253ELike%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-tertiary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-clone%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253ECopy%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-tertiary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-primary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-thumbs-o-up%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253ELike%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-tertiary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-clone%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253ECopy%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522m-2%2520btn-tertiary%2520py-1%2520px-2%2520font-semibold%2520rounded-sm%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items-center%2520transition-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520btn-icon%2520mr-1%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%250A"
                             style="
-									width: 897px;
-									height: 417px;
+									width: 977px;
+									height: 419px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -464,18 +471,18 @@
                         <code>right-1</code>.
                     </p>
 
-                    <div class="snippet rounded-sm p-3 flex-row content-center my-2 border">
-                        <button class="btn-floating m-2 font-semibold py-1 px-3 flex-row flex-center rounded-full">
+                    <div class="example-snippet rounded-sm p-3 flex-row content-center my-2 border">
+                        <button class="btn-float m-2 font-semibold py-1 px-3 flex-row flex-center rounded-full">
                             <i class="fa fa-plus btn-icon"></i>
                         </button>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=auto&width=860&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2509%2509class%253D%2522btn-floating%2520m-2%2520font-semibold%2520py-1%2520px-3%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509absolute%2520bottom-1%2520right-1%2520flex-center%2520rounded-full%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa%2520fa-plus%2520btn-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%250A%2520%2520%2520%2520%2520%2520%2520%2509%2509class%253D%2522btn-floating%2520m-2%2520font-semibold%2520py-1%2520px-3%2520flex-row%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509absolute%2520bottom-1%2520right-1%2520flex-center%2520rounded-full%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa%2520fa-plus%2520btn-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A"
                             style="
-									width: 860px;
-									height: 192px;
+									width: 977px;
+									height: 209px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -492,13 +499,14 @@
                         <h2 class="font-black my-2">Card</h2>
                         <p>
                             Cards are use for display products on ecommerce or for users
-                            posts on social media.
+                            posts on social media. To give a shadow to a card put
+                            <code>card-shadow</code> in <code>class</code>.
                         </p>
                     </div>
 
-                    <div class="snippet rounded-sm p-3 flex-row flex-center wrap my-1 border">
+                    <div class="example-snippet rounded-sm p-3 flex-row flex-center wrap my-1 border">
                         <!-- card with badge -->
-                        <div class="card vertical-card flex-column relative transition-2 mr-1 my-2">
+                        <div class="card card-shadow vertical-card flex-column relative transition-2 mr-1 my-2">
                             <span class="card-badge text-base font-semibold absolute top-1 left-1 rounded-sm">New</span>
                             <div>
                                 <img src="../assets/jacket.jpg" alt="avatar" />
@@ -513,7 +521,7 @@
                         </div>
 
                         <!-- card with favourite badge -->
-                        <div class="card vertical-card flex-column relative transition-2 mr-1 my-2">
+                        <div class="card card-shadow vertical-card flex-column relative transition-2 mr-1 my-2">
                             <span
                                 class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
                                 <i class="fa fa-heart-o"></i>
@@ -531,7 +539,7 @@
                         </div>
 
                         <!-- card with dismiss -->
-                        <div class="card vertical-card flex-column relative transition-2 mr-1 my-2">
+                        <div class="card card-shadow vertical-card flex-column relative transition-2 mr-1 my-2">
                             <span
                                 class="card-badge-bg absolute text-base top-1 right-1 rounded-full flex-row flex-center pointer">
                                 <i class="fa fa-close"></i>
@@ -548,12 +556,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=903&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520card%2520with%2520badge%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2520mr-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-badge%2520text-base%2520font-semibold%2520absolute%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520top-1%2520right-1%2520rounded-sm%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2520mr-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520card%2520with%2520dismiss%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-badge-bg%2520absolute%2520text-base%2520top-1%2520right-1%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-full%2520flex-row%2520flex-center%2520pointer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520card%2520with%2520badge%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2520mr-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-badge%2520text-base%2520font-semibold%2520absolute%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520top-1%2520right-1%2520rounded-sm%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2520mr-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520card%2520with%2520dismiss%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-badge-bg%2520absolute%2520text-base%2520top-1%2520right-1%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-full%2520flex-row%2520flex-center%2520pointer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%250A"
                             style="
-									width: 978px;
-									height: 890px;
+									width: 977px;
+									height: 818px;
 									border: 0;
 									transform: scale(1);
 									overflow: hidden;
@@ -561,10 +569,10 @@
                         </iframe>
                     </div>
 
-                    <!-- card with text overlay and text only cards-->
                     <p class="mt-2">Card with text overlay and text only cards.</p>
-                    <div class="snippet rounded-sm p-3 flex-row items-start wrap content-center my-1 border">
-                        <div class="card vertical-card flex-column relative transition-2 m-1">
+                    <div class="example-snippet rounded-sm p-3 flex-row items-start wrap content-center my-1 border">
+                        <!-- card with text overlay  -->
+                        <div class="card card-shadow vertical-card flex-column relative transition-2 m-1">
                             <div class="relative">
                                 <img src="../assets/jacket.jpg" alt="avatar" />
                                 <p class="p-2 overlay black w-100 font-bold text-center">
@@ -581,7 +589,7 @@
                         </div>
 
                         <!-- text only card -->
-                        <div class="card vertical-card flex-column relative m-1">
+                        <div class="card card-shadow vertical-card flex-column relative m-1">
                             <div class="p-2">
                                 <h3>Jacket</h3>
                                 <p class="black mt-1">
@@ -596,19 +604,23 @@
                         </div>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=978&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522rounded-sm%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522p-2%2520overlay%2520black%2520w-100%2520font-bold%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Out%2520of%2520stock%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mt-2%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522mb-1%2522%253E%25E2%2582%25B92000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520text%2520only%2520card%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical-card%2520flex-column%2520relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJacket%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray%2520mt-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520An%2520outer%2520garment%2520extending%2520either%2520to%2520the%2520waist%2520or%2520the%2520hips%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520typically%2520having%2520sleeves%2520and%2520a%2520fastening%2520down%2520the%2520front.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520card-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Learn%2520More%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                            style="width: 978px; height: 755px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
+                            style="
+									width: 978px;
+									height: 755px;
+									border: 0;
+									transform: scale(1);
+									overflow: hidden;
+								" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
-
                     <!-- horizontal cards-->
                     <p class="mt-2">Horizontal cards.</p>
-                    <div class="snippet rounded-sm p-3 flex-row items-start content-center my-1 border">
-                        <div class="card flex-row horizontal-card transition-2">
+                    <div class="example-snippet rounded-sm p-3 flex-row items-start content-center my-1 border">
+                        <div class="card card-shadow flex-row horizontal-card transition-2">
                             <div class="w-30">
                                 <img src="../assets/jacket.jpg" alt="avatar" class="w-100 h-100" />
                             </div>
@@ -633,14 +645,18 @@
                         </div>
                     </div>
 
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=978&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520flex-row%2520horizontal-card%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522w-30%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522w-100%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-column%2520content-space-between%2520w-30%2520p-2%2520mt-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-regular%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522mr-2%2520text-lg%2520font-bold%2522%253E%25E2%2582%25B92000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray%2520text-regular%2522%253E%253Cs%253E%25E2%2582%25B93000%253C%252Fs%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray%2520font-bold%2520text-regular%2520mb-1%2522%253E50%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520items-end%2520card-btn%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520transition-2%2520mb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520items-end%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520card-remove-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Remove%2520from%2520wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                            style="width: 978px; height: 620px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520flex-row%2520horizontal-card%2520relative%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522w-30%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fjacket.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522w-100%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-column%2520content-space-between%2520w-30%2520p-2%2520mt-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-regular%2520mb-1%2522%253EMen%2520premium%2520jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522mr-2%2520text-lg%2520font-bold%2522%253E%25E2%2582%25B92000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray%2520text-regular%2522%253E%253Cs%253E%25E2%2582%25B93000%253C%252Fs%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray%2520font-bold%2520text-regular%2520mb-1%2522%253E50%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520items-end%2520card-btn%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520transition-2%2520mb-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522p-1%2520w-100%2520font-semibold%2520items-end%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520card-remove-btn%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Remove%2520from%2520wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+                            style="
+									width: 977px;
+									height: 590px;
+									border: 0;
+									transform: scale(1);
+									overflow: hidden;
+								" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-
                 </article>
             </section>
 
@@ -650,25 +666,31 @@
                     <div>
                         <h2 class="font-black my-2">Image</h2>
                         <p>
-                            Responsive images can be use for profile picture and as a background.
+                            Responsive images can be use for profile picture and as a
+                            background.
                         </p>
 
                         <p class="mt-2">
-                            For round images put <code>rounded-full</code> and for images with rounded border put
-                            <code>rounded-sm</code> in <code>class</code>. And also provide a
-                            <code>alt</code>.
+                            For round images put <code>rounded-full</code> and for images
+                            with rounded border put <code>rounded-sm</code> in
+                            <code>class</code>. And also provide a <code>alt</code>.
                         </p>
                     </div>
-                    <div class="snippet rounded-sm p-3 flex-row content-center wrap my-1 border">
+                    <div class="example-snippet rounded-sm p-3 flex-row content-center wrap my-1 border">
                         <img class="m-1 w-20 h-20" src="../assets/sky.jpg" alt="sky" />
                         <img class="m-1 w-20 h-20 rounded-full" src="../assets/sky.jpg" alt="sky" />
                         <img class="m-1 w-20 h-20 rounded-sm" src="../assets/sky.jpg" alt="sky" />
                     </div>
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=894&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2520rounded-full%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2520rounded-sm%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A"
-                            style="width: 894px; height: 147px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522w-20%2520h-20%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2520rounded-full%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Cimg%2520class%253D%2522w-20%2520h-20%2520rounded-sm%2522%2520src%253D%2522..%252Fassets%252Fsky.jpg%2522%2520alt%253D%2522sky%2522%2520%252F%253E%250A%250A"
+                            style="
+									width: 977px;
+									height: 171px;
+									border: 0;
+									transform: scale(1);
+									overflow: hidden;
+								" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </article>
@@ -679,20 +701,19 @@
                 <article>
                     <div>
                         <h2 class="font-black my-2">Input</h2>
-                        <p>
-                            Input and textarea fields for taking input from user.
-                        </p>
+                        <p>Input and textarea fields for taking input from user.</p>
 
                         <p class="mt-2">
-                            For representing success message put <code>success-msg</code> and for error put
+                            For representing success message put
+                            <code>success-msg</code> and for error put
                             <code>error-msg</code> in <code>class</code>.
                         </p>
                     </div>
-                    <div class="snippet rounded-sm p-3 flex-row content-center wrap my-1 border">
+                    <div class="example-snippet rounded-sm p-3 flex-row content-center wrap my-1 border">
                         <div class="flex-column m-1">
                             <label for="email">Email</label>
                             <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="email" type="email"
-                                placeholder="Enter your email">
+                                placeholder="Enter your email" />
                             <!-- custom message -->
                             <span class="error-msg mt-1 p-1 rounded-sm">Please enter correct email!</span>
                         </div>
@@ -700,7 +721,7 @@
                         <div class="flex-column m-1">
                             <label for="password">Password</label>
                             <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="password" type="password"
-                                placeholder="Enter your password">
+                                placeholder="Enter your password" />
                             <!-- custom message -->
                             <span class="success-msg mt-1 p-1 rounded-sm">👋 Login successfull.</span>
                         </div>
@@ -708,17 +729,22 @@
                         <textarea class="m-1 py-1 px-2 text-base border rounded-sm resize-none" name="address"
                             placeholder="Address goes here..." id="address" cols="40" rows="10"></textarea>
                     </div>
-                    <div class="my-3 snippet">
+                    <div class="my-3 code-snippet">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=none&l=htmlmixed&width=1009&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=150%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-column%2520m-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522mt-1%2520py-1%2520px-2%2520text-base%2520border%2520rounded-sm%2522%2520id%253D%2522password%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520custom%2520message%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522success-msg%2520mt-1%2520p-1%2520rounded-sm%2522%253E%25F0%259F%2591%258B%2520Login%2520successfull.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522m-1%2520py-1%2520px-2%2520text-base%2520border%2520rounded-sm%2520resize-none%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522address%2522%2520placeholder%253D%2522Address%2520goes%2520here...%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522address%2522%2520cols%253D%252240%2522%2520rows%253D%252210%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftextarea%253E%250A"
-                            style="width: 1009px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-column%2520m-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522mt-1%2520py-1%2520px-2%2520text-base%2520border%2520rounded-sm%2522%2520id%253D%2522password%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520custom%2520message%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522success-msg%2520mt-1%2520p-1%2520rounded-sm%2522%253E%25F0%259F%2591%258B%2520Login%2520successfull.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522m-1%2520py-1%2520px-2%2520text-base%2520border%2520rounded-sm%2520resize-none%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522address%2522%2520placeholder%253D%2522Address%2520goes%2520here...%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522address%2522%2520cols%253D%252240%2522%2520rows%253D%252210%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftextarea%253E%250A%250A"
+                            style="
+									width: 977px;
+									height: 342px;
+									border: 0;
+									transform: scale(1);
+									overflow: hidden;
+								" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </article>
             </section>
             <footer class="mt-2 p-2 text-center">
-                <p>Made by Rohan Mathur.</p>
+                <p>Made with ❤ by Rohan Mathur.</p>
             </footer>
         </main>
     </div>
