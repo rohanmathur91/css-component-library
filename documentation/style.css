@@ -79,6 +79,7 @@ p {
 .main-container {
 	grid-area: main;
 	overflow-wrap: break-word;
+	scroll-behavior: smooth;
 }
 
 .main-container > section {
@@ -153,7 +154,7 @@ p {
 	color: var(--dark-gray);
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1024px) {
 	.logo {
 		display: none;
 	}

@@ -1,0 +1,15 @@
+.resize-none {
+	resize: none;
+}
+
+.success-msg {
+	color: var(--green);
+	background-color: var(--light-green);
+	border: 1px solid var(--dark-green);
+}
+
+.error-msg {
+	color: var(--red);
+	background-color: var(--light-red);
+	border: 1px solid var(--dark-red);
+}
