@@ -67,11 +67,15 @@
                     <a href="#input">Input</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
-                    <a href="#input">Lists</a>
+                    <a href="#lists">Lists</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#navigation">Navigation</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#input">Typography</a>
                 </li>
+
             </ul>
         </aside>
         <main class="main-container flex-column p-1">
@@ -79,7 +83,7 @@
                 <article>
                     <p class="text-lg mt-3 mb-2 pb-2 border-b-1">
                         <span class="invert text-lg font-bold"> Polaroid </span>
-                        is CSS component library for developing UIs in more faster and
+                        is a CSS component library for developing UIs in more faster and
                         efficient manner.
                     </p>
                 </article>
@@ -653,7 +657,7 @@
                             <input class="mt-1 py-1 px-2 text-base border rounded-sm" id="password" type="password"
                                 placeholder="Enter your password">
                             <!-- custom message -->
-                            <span class="success-msg mt-1 p-1 rounded-sm">👋 Login successfull.</span>
+                            <span class="success-msg mt-1 p-1 rounded-sm">👋 Login successful.</span>
                         </div>
 
                         <textarea class="m-1 py-1 px-2 text-base border rounded-sm resize-none" name="address"
@@ -831,12 +835,117 @@
                     </div>
                 </article>
             </section>
+
+            <!-- navigation -->
+            <section id="navigation">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Navigation</h2>
+                        <p>
+                            Navigation bar is use by users to navigate to specific part or page of your web application.
+                            To fix the navigation bar to top of the screen put <code>fixed</code>, <code>left-0</code>
+                            and <code>top-0</code> in its class.
+                        </p>
+                    </div>
+
+                    <!-- simple desktop navigation -->
+                    <div class="snippet rounded-sm p-3 flex-column flex-center wrap my-1 border">
+                        <nav class="navbar flex-row items-center wrap py-2 px-4 w-100">
+                            <!-- Your logo or brand goes here -->
+                            <a href="#">
+                                <h3>Hero logo</h3>
+                            </a>
+
+                            <ul class="ml-auto flex-row items-center font-bold">
+                                <li class="ml-4">
+                                    <a href="#" target="_blank"><i
+                                            class="fa fa-github navbar-icons transition-2"></i></a>
+                                </li>
+                                <li class="ml-4">
+                                    <a href="#" target="_blank"><i
+                                            class="fa fa-twitter navbar-icons transition-2"></i></a>
+                                </li>
+                                <li class="ml-4">
+                                    <a href="#" target="_blank"><i
+                                            class="fa fa-linkedin-square navbar-icons transition-2"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520fixed%2520left-0%2520top-0%2520z-1%2520flex-row%2520items-center%2520wrap%2520py-2%2520px-4%2520w-100%2522%253E%250A%2520%2520%2520%253C%21--%2520Your%2520logo%2520or%2520brand%2520goes%2520here%2520--%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522black%2522%253EHero%2520logo%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522ml-auto%2520flex-row%2520items-center%2520font-bold%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522ml-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%253E%253Ci%2520class%253D%2522fa%2520fa-github%2520navbar-icons%2520transition-2%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522ml-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%253E%253Ci%2520class%253D%2522fa%2520fa-twitter%2520navbar-icons%2520transition-2%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522ml-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%253E%253Ci%2520class%253D%2522fa%2520fa-linkedin-square%2520navbar-icons%2520transition-2%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 419px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p>
+                        To fix the navigation bar to top of the screen put <code>fixed</code>, <code>left-0</code>
+                        and <code>top-0</code> in header's class.
+                    </p>
+                    <!-- responsive navigation for mobile-->
+                    <div class="navbar-snippet rounded-sm p-3 h-30 flex-column content-start wrap my-1 border">
+                        <header class="w-100">
+                            <div class="relative">
+                                <!-- header -->
+                                <div class="navbar w-100 flex-row items-center wrap py-2 px-4">
+                                    <a href="../index.html">
+                                        <h3>Brand logo</h3>
+                                    </a>
+
+                                    <!-- hamburger menu -->
+                                    <button class="toggle-navbar navbar-icons ml-auto white text-regular"><i
+                                            class="fa fa-bars"></i></button>
+                                </div>
+
+                                <!-- sidebar -->
+                                <nav class="side-navbar absolute top-0 left-0 z-1">
+                                    <!-- options -->
+                                    <ul class="my-2 mx-3">
+                                        <li class="p-1  m-2 navbar-item rounded-sm">
+                                            <p>Inbox</p>
+                                        </li>
+                                        <li class="p-1  m-2 navbar-item rounded-sm">
+                                            <a href="#">Sent</a>
+                                        </li>
+                                        <li class="p-1 m-2 navbar-item rounded-sm">
+                                            <p>Draft</p>
+                                        </li>
+                                        <li class="p-1 m-2  navbar-item rounded-sm">
+                                            <a href="#">Important</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </header>
+                        <p class="mt-8 text-center">Press hamburger menu for side navbar.</p>
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522fixed%2520left-0%2520top-0%2520w-100%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520header%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar%2520w-100%2520flex-row%2520items-center%2520wrap%2520py-2%2520px-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522..%252Findex.html%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EBrand%2520logo%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520hamburger%2520menu%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toggle-navbar%2520navbar-icons%2520ml-auto%2520white%2520text-regular%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520sidebar%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522side-navbar%2520absolute%2520top-0%2520left-0%2520z-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520options%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522my-2%2520mx-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522p-1%2520%2520m-2%2520navbar-item%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInbox%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522p-1%2520%2520m-2%2520navbar-item%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ESent%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522p-1%2520m-2%2520navbar-item%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDraft%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522p-1%2520m-2%2520%2520navbar-item%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EImportant%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E%250A%250A%253C%21--%2520content%2520--%253E%250A%253Cdiv%2520class%253D%2522content%2520mt-6%2522%253E%250A%2520%2520%2520%2520.......%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 799px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p>JavaScript for side navbar.</p>
+                    <div class="mt-2 mb-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=javascript&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=const%2520navbar%2520%253D%2520document.querySelector%28%2522.side-navbar%2522%29%253B%250Aconst%2520toggleNavbar%2520%253D%2520document.querySelector%28%2522.toggle-navbar%2522%29%253B%250A%250Aconst%2520handleToggle%2520%253D%2520%28%29%2520%253D%253E%2520navbar.classList.toggle%28%2522side-navbar-width%2522%29%253B%250AtoggleNavbar.addEventListener%28%2522click%2522%252C%2520handleToggle%29%253B%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 171px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
             <footer class="mt-2 p-2 text-center">
                 <p>Made with ❤ by Rohan Mathur.</p>
             </footer>
         </main>
     </div>
     <script src="./sidebar.js"></script>
+    <script src="../javascript/navbar.js"></script>
 </body>
 
 </html>
