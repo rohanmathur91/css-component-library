@@ -1,0 +1,36 @@
+.close-btn:hover {
+	color: var(--black);
+}
+
+.toast {
+	width: 100%;
+	max-width: 40rem;
+	border: 1px solid var(--gray);
+}
+
+/* positions */
+.top-left {
+	top: 2rem;
+	left: 2rem;
+}
+
+.top-right {
+	top: 2rem;
+	right: 2rem;
+}
+
+.bottom-left {
+	bottom: 2rem;
+	left: 2rem;
+}
+
+.bottom-right {
+	bottom: 2rem;
+	right: 2rem;
+}
+
+.bottom-center {
+	left: 50%;
+	bottom: 2rem;
+	transform: translate(-50%, -15%);
+}
