@@ -1,0 +1,8 @@
+.modal {
+	display: none;
+	background-color: var(--modal-background);
+}
+
+.modal-container {
+	background-color: var(--white);
+}
