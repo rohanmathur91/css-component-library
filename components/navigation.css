@@ -1,0 +1,31 @@
+.navbar {
+	color: var(--white);
+	background-color: var(--black);
+}
+
+.navbar-icons {
+	font-size: 3rem;
+	color: var(--white);
+}
+
+.navbar-icons:hover {
+	color: var(--gray);
+}
+
+.navbar-item:hover {
+	background-color: var(--dark-gray);
+}
+
+.side-navbar {
+	width: 0;
+	height: fit-content;
+	z-index: auto; /* to avoid stacking context for position absolute*/
+	overflow: auto;
+	transition: 0.2s;
+	color: var(--white);
+	background-color: var(--black);
+}
+
+.side-navbar-width {
+	width: 30rem;
+}

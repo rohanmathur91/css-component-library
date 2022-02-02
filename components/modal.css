@@ -4,5 +4,6 @@
 }
 
 .modal-container {
+	max-width: 38rem;
 	background-color: var(--white);
 }

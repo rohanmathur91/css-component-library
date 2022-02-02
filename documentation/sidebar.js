@@ -5,6 +5,7 @@ const sidebar = document.querySelector(".sidebar");
 menuIcon.addEventListener("click", () =>
 	sidebar.classList.add("sidebar-toggle")
 );
+
 closeSidebar.addEventListener("click", () =>
 	sidebar.classList.remove("sidebar-toggle")
 );
