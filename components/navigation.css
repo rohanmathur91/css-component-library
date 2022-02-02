@@ -19,6 +19,7 @@
 .side-navbar {
 	width: 0;
 	height: fit-content;
+	z-index: auto; /* to avoid stacking context for position absolute*/
 	overflow: auto;
 	transition: 0.2s;
 	color: var(--white);
