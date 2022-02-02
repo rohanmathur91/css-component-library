@@ -80,6 +80,7 @@ p {
 	grid-area: main;
 	overflow-wrap: break-word;
 	scroll-behavior: smooth;
+	max-width: 100rem;
 }
 
 .main-container > section {
@@ -139,16 +140,14 @@ p {
 	background-color: var(--gray);
 }
 
-.snippet {
-	width: 100%;
-	height: 100%;
-	max-width: 95rem;
-	overflow: auto;
-}
-
+.snippet,
 .snippet iframe {
 	width: 100%;
 	height: 100%;
+	max-width: 95rem;
+}
+
+.navbar-snippet {
 	max-width: 95rem;
 }
 
