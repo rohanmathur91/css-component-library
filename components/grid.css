@@ -2,18 +2,19 @@
 	display: grid;
 }
 
-.grid-2 {
+.grid-col-2 {
 	grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-3 {
+.grid-col-3 {
 	grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-responsive {
+.grid-responsive-min-100 {
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
+/* for documentation example purpose */
 .grid-item {
 	margin: 1rem;
 	padding: 1rem;
