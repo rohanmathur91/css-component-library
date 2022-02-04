@@ -80,6 +80,7 @@ p {
 	grid-area: main;
 	overflow-wrap: break-word;
 	scroll-behavior: smooth;
+	overflow: auto;
 }
 
 .main-container > section {
@@ -103,6 +104,10 @@ p {
 }
 
 /* cta */
+.underline {
+	text-decoration: underline;
+}
+
 .cta {
 	transition: all 0.3s ease;
 }
