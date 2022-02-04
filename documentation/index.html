@@ -79,6 +79,9 @@
                     <a href="#navigation">Navigation</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#toast">Toast</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#typography">Typography</a>
                 </li>
             </ul>
@@ -1139,8 +1142,69 @@
                 </article>
             </section>
 
-            <footer class="mt-2 p-2 text-center">
-                <p>Made with ❤ by Rohan Mathur.</p>
+            <!-- toast -->
+            <section id="toast">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Toast</h2>
+                        <p>Toast are use for small notifications.</p>
+                        <p>
+                            For different types of toast put class <code>success</code> or
+                            <code>warning</code> or <code>info</code> or <code>error</code>.
+                            And for different position put <code>top-left</code> or
+                            <code>top-right</code> or <code>bottom-left</code> or
+                            <code>bottom-right</code> or <code>bottom-center</code>.
+                        </p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 flex-column flex-center wrap my-1 border">
+                        <!-- success toast -->
+                        <div class="toast success flex-row content-space-between p-2 mt-1 rounded-sm">
+                            <!-- Your message goes here -->
+                            <p>This is a success toast!</p>
+                            <button class="close-btn mx-1 text-base dark-gray transition-2">
+                                <i class="fa fa-close"></i>
+                            </button>
+                        </div>
+
+                        <!-- warning toast -->
+                        <div class="toast warning flex-row content-space-between p-2 mt-1 rounded-sm">
+                            <!-- Your message goes here -->
+                            <p>This is a warning toast!</p>
+                            <button class="close-btn mx-1 text-base dark-gray transition-2">
+                                <i class="fa fa-close"></i>
+                            </button>
+                        </div>
+
+                        <!-- info toast -->
+                        <div class="toast info flex-row content-space-between p-2 mt-1 rounded-sm">
+                            <!-- Your message goes here -->
+                            <p>This is a info toast!</p>
+                            <button class="close-btn mx-1 text-base dark-gray transition-2">
+                                <i class="fa fa-close"></i>
+                            </button>
+                        </div>
+
+                        <!-- error toast -->
+                        <div class="toast error flex-row content-space-between p-2 mt-1 rounded-sm">
+                            <!-- Your message goes here -->
+                            <p>This is a error or danger toast!</p>
+                            <button class="close-btn mx-1 text-base dark-gray transition-2">
+                                <i class="fa fa-close"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253C%21--%2520toast%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520success%2520top-left%2520fixed%2520flex-row%2520items-center%2520p-2%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%253C%21--%2520Your%2520message%2520goes%2520here%2520--%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522mr-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520toast%21%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2520text-base%2520dark-gray%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+
+            <footer class="mt-6 p-2 text-center">
+                <p>Made by Rohan Mathur 🚀.</p>
             </footer>
         </main>
     </div>
