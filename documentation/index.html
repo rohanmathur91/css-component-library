@@ -33,7 +33,7 @@
                     <i class="fa fa-times"></i>
                 </button>
             </div>
-            <ul class="mt-3">
+            <ul class="my-3">
                 <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#usage">Get started!</a>
                 </li>
@@ -51,6 +51,9 @@
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#card">Card</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#grid">Grid</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#image">Image</a>
@@ -646,6 +649,100 @@
                     </div>
                 </article>
             </section>
+
+
+            <!-- grid -->
+            <section id="grid">
+                <article>
+                    <div>
+                        <h2 class="font-black my-2">Grid</h2>
+                        <p>Grids are used for layouting the elements in row and column manner.</p>
+                        <p>
+                            For different variation of grid put class <code>grid-2</code> for 2 columns,
+                            <code>grid-3</code> for 3 columns, and for other responsive grid
+                            <code>grid-responsive</code>.
+                        </p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 my-2 border">
+                        <div class="grid grid-2">
+                            <div class="grid-item">
+                                1
+                            </div>
+                            <div class="grid-item">
+                                2
+                            </div>
+                            <div class="grid-item">
+                                3
+                            </div>
+                            <div class="grid-item">
+                                4
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25201%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25202%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25203%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25204%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 342px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- grid with 3 columns -->
+                    <p class="mt-2">Grid with 3 columns.</p>
+                    <div class="snippet rounded-sm p-3 my-2 border">
+                        <div class="grid grid-3">
+                            <div class="grid-item">
+                                1
+                            </div>
+                            <div class="grid-item">
+                                2
+                            </div>
+                            <div class="grid-item">
+                                3
+                            </div>
+                            <div class="grid-item">
+                                4
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-3%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25201%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25202%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25203%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25204%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 342px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- responsive -->
+                    <p class="mt-2">Responsive grid will adjust the columns by itself.</p>
+                    <div class="snippet rounded-sm p-3 my-2 border">
+                        <div class="grid grid-responsive">
+                            <div class="grid-item">
+                                1
+                            </div>
+                            <div class="grid-item">
+                                2
+                            </div>
+                            <div class="grid-item">
+                                3
+                            </div>
+                            <div class="grid-item">
+                                4
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="my-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-responsive%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25201%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25202%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25203%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%25204%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 342px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+
 
             <!-- images -->
             <section id="image">

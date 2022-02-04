@@ -1,0 +1,27 @@
+.grid {
+	display: grid;
+}
+
+.grid-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-responsive {
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.grid-item {
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 2rem;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--dark-gray);
+	background-color: var(--light-gray);
+}
