@@ -14,7 +14,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-/* for documentation example purpose */
+/* for documentation example purpose user can remove class if not needed*/
 .grid-item {
 	margin: 1rem;
 	padding: 1rem;
