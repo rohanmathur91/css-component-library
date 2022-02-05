@@ -71,6 +71,9 @@
                     <a href="#navigation">Navigation</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
+                    <a href="#slider">Slider</a>
+                </li>
+                <li class="py-1 px-2 m-1 ml-4 list-item">
                     <a href="#toast">Toast</a>
                 </li>
                 <li class="py-1 px-2 m-1 ml-4 list-item">
@@ -1131,6 +1134,41 @@
                 </article>
             </section>
 
+            <!-- slider -->
+            <section id="slider">
+                <article>
+                    <div>
+                        <h3 class="font-black my-2 text-xl">Slider</h3>
+                        <p>Slider are use for having different ranges example price range.</p>
+                        <p>For this slider the range is minimum 1000 and maximum is 10000, which you can change
+                            according to usecase.</p>
+                    </div>
+                    <div class="snippet rounded-sm p-3 flex-column items-center wrap my-1 border">
+                        <div class="slider flex-column w-20">
+                            <label for="slider-input" class="mb-1">Select your price range.</label>
+                            <input id="slider-input" type="range" min="1000" max="10000" step="1000">
+                        </div>
+                        <p class="slider-output mt-1"></p>
+                    </div>
+                    <div class="mt-3 mb-2 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider%2520flex-column%2520w-20%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522slider-input%2522%2520class%253D%2522mb-1%2522%253ESelect%2520your%2520price%2520range.%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522slider-input%2522%2520type%253D%2522range%2522%2520min%253D%25221000%2522%2520max%253D%252210000%2522%2520step%253D%25221000%2522%253E%250A%253C%252Fdiv%253E%250A%253Cp%2520class%253D%2522slider-output%2520mt-1%2522%253E%253C%252Fp%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 171px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <p>Javascript for slider.</p>
+                    <div class="mt-2 mb-3 snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=javascript&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=const%2520slider%2520%253D%2520document.querySelector%28%2522%2523slider-input%2522%29%253B%250Aconst%2520output%2520%253D%2520document.querySelector%28%2522.slider-output%2522%29%253B%250A%250Aslider.addEventListener%28%2522change%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2509output.innerHTML%2520%253D%2520%2560You%2520selected%2520%2524%257Bslider.value%257D%2560%253B%250A%257D%29%253B%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                            style="height: 190px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+
+
             <!-- toast -->
             <section id="toast">
                 <article>
@@ -1309,6 +1347,7 @@
     <script src="./sidebar.js"></script>
     <script src="../javascript/modal.js"></script>
     <script src="../javascript/navbar.js"></script>
+    <script src="../javascript/slider.js"></script>
 </body>
 
 </html>

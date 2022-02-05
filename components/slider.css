@@ -1,0 +1,16 @@
+input[type="range"] {
+	-webkit-appearance: none;
+	height: 6px;
+	border-radius: 5px;
+	background: var(--light-gray);
+	border: 1px solid var(--dark-gray);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background: var(--dark-gray);
+	border: 1px solid var(--black);
+}

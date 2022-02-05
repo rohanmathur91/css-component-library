@@ -1,18 +1,19 @@
 /* utilities */
-@import url("./utilities/utils.css");
-@import url("./utilities/margin.css");
-@import url("./utilities/padding.css");
-@import url("./utilities/reset.css");
+@import "./utilities/utils.css";
+@import "./utilities/margin.css";
+@import "./utilities/padding.css";
+@import "./utilities/reset.css";
 
 /* components */
-@import url("./components/alert.css");
-@import url("./components/avatar.css");
-@import url("./components/badge.css");
-@import url("./components/button.css");
-@import url("./components/card.css");
-@import url("./components/input.css");
-@import url("./components/lists.css");
-@import url("./components/modal.css");
-@import url("./components/navigation.css");
-@import url("./components/toast.css");
-@import url("./components/grid.css");
+@import "./components/alert.css";
+@import "./components/avatar.css";
+@import "./components/badge.css";
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/input.css";
+@import "./components/lists.css";
+@import "./components/modal.css";
+@import "./components/navigation.css";
+@import "./components/toast.css";
+@import "./components/grid.css";
+@import "./components/slider.css";
