@@ -147,8 +147,8 @@
                         <p>Alerts are use for showing small messages to user.</p>
                         <p>
                             Use different alerts depending upon the use cases such as, to
-                            show <code>success</code>, <code>information</code>, <code>error</code> and
-                            <code>warning</code>.
+                            show <code>success</code>, <code>information</code>,
+                            <code>error</code> and <code>warning</code>.
                         </p>
                     </div>
                     <div class="snippet rounded-sm p-3 flex-column items-center my-1 border">
@@ -966,7 +966,7 @@
 
                     <!-- demo -->
                     <p>
-                        Demo for the modal. For opening a model with custom button, give
+                        Demo for the modal. For opening a modal with custom button, give
                         that button <code>modal-open-btn</code> class and to close modal
                         give <code>modal-cancel-btn</code> class.
                     </p>
@@ -1252,6 +1252,26 @@
                             </button>
                         </div>
                     </div>
+
+                    <!-- demo -->
+                    <div class="mt-2">
+                        <div
+                            class="toast demo-toast hide info flex-row content-space-between p-2 m-2 fixed left-1 bottom-1 z-3 rounded-sm">
+                            <!-- Your message goes here -->
+                            <p>This is a information toast!</p>
+                            <button class="close-btn close-demo-toast mx-1 text-base dark-gray transition-2">
+                                <i class="fa fa-close"></i>
+                            </button>
+                        </div>
+                        <p>Demo for the information toast.</p>
+                        <div class="snippet rounded-sm p-3 flex-column flex-center wrap my-1 border">
+                            <!-- toast button -->
+                            <button class="open-demo-toast btn-primary py-1 px-2 rounded-sm transition-2">
+                                Show toast
+                            </button>
+                        </div>
+                    </div>
+
                     <div class="my-3 snippet">
                         <iframe loading="lazy"
                             src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=material&wt=sharp&l=htmlmixed&width=977&ds=false&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=136%25&si=false&es=2x&wm=false&code=%253C%21--%2520toast%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520success%2520top-left%2520fixed%2520flex-row%2520items-center%2520p-2%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%253C%21--%2520Your%2520message%2520goes%2520here%2520--%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522mr-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520toast%21%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2520text-base%2520dark-gray%2520transition-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
@@ -1384,6 +1404,7 @@
     <script src="../javascript/modal.js"></script>
     <script src="../javascript/navbar.js"></script>
     <script src="../javascript/slider.js"></script>
+    <script src="../javascript/toast.js"></script>
 </body>
 
 </html>
