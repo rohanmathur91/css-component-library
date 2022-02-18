@@ -1,0 +1,9 @@
+.rating-item {
+	color: var(--dark-gray);
+	font-size: 2rem;
+}
+
+.rated,
+.rating-item:hover {
+	color: var(--rating-color);
+}
