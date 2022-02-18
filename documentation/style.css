@@ -163,7 +163,7 @@ p {
 	color: var(--dark-gray);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64em) {
 	.logo {
 		display: none;
 	}
