@@ -3,11 +3,11 @@
 </p>
 <h1 align="center">Polaroid</h1>
 
+<h1 align="center">CSS component library for faster development.</h1>
+
 <p align="center">
   <img src="https://api.netlify.com/api/v1/badges/17b53658-ec99-4ef9-843a-756f93ccf7c1/deploy-status">
 </p>
-
-<h1 align="center">CSS component library for faster development.</h1>
 
 ## Installation:
 
