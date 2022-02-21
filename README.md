@@ -33,6 +33,11 @@
     Open the index.html file in the browser
 ```
     
+## Tech stack:
+ - HTML
+ - CSS
+ - JavaScript
+    
 
 ## Features:
 
