@@ -17,16 +17,16 @@
 ```
 
 ### Another way is to import the link in your CSS file.
-```bash
+```css
 @import "https://polaroid7.netlify.app/polaroid.css"
 ```
 
 ## To run locally 🚀:
 
-```
+```sh
     git clone https://github.com/rohanmathur91/css-component-library.git
 ```
-```
+```sh
     cd into css-component-library
 ```
 ```
