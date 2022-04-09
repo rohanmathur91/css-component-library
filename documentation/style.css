@@ -131,7 +131,7 @@ p {
 
 .secondary-cta:hover {
 	color: var(--white);
-	background-color: var(--text-hover);
+	background-color: var(--blue);
 }
 
 .list-item a {
